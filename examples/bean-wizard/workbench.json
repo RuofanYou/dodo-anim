@@ -1,0 +1,25 @@
+{
+  "name": "bean-wizard",
+  "sourceImage": "source/approved.png",
+  "skeleton": "build/bean-wizard-source.json",
+  "parts": "assets/parts",
+  "output": "exports",
+  "buildScript": "scripts/build.mjs",
+  "validationScript": "scripts/verify.mjs",
+  "inputs": [
+    "source/actions.json",
+    "source/rig_spec.json",
+    "source/belly-underlay-inpaint.png",
+    "source/broom-underlay-inpaint.png",
+    "source/neck-underlay-inpaint.png",
+    "source/cape-underlap-inpaint.png",
+    "source/parts.json",
+    "source/approved-cutout.png",
+    "scripts/split_art.py",
+    "scripts/build_rig.mjs",
+    "scripts/verify.mjs",
+    "scripts/verify-motion.mjs",
+    "scripts/verify_neck_coverage.mjs",
+    "scripts/neck_coverage_sampling.mjs"
+  ]
+}

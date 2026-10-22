@@ -1,0 +1,9 @@
+{
+  "name": "deathwing-native-fire",
+  "duration": 6,
+  "headScale": 1.35,
+  "presentationStage": {"x": -940, "y": -130, "width": 3120, "height": 1310},
+  "portraitStage": {"x": -940, "y": -130, "width": 1900, "height": 1310},
+  "emission": {"start": 1.65, "loopStart": 1.85, "stop": 3.7, "clear": 4.1, "mix": 0.08},
+  "targetWorldLength": 1150
+}

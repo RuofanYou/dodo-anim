@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-22",
+  "project": "动动 Dodo",
+  "repository": "RuofanYou/dodo-anim",
+  "toolTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "samplesRebuilt": [
+    {
+      "name": "bean-wizard",
+      "status": "passed",
+      "report": "examples/bean-wizard/exports/validation.json"
+    },
+    {
+      "name": "bean-chest",
+      "status": "passed",
+      "report": "examples/bean-chest/exports/validation.json"
+    },
+    {
+      "name": "deathwing-native-fire",
+      "status": "passed",
+      "report": "examples/deathwing-native-fire/exports/validation.json"
+    }
+  ],
+  "rebuildComparisons": [
+    {
+      "file": "examples/bean-wizard/build/bean-wizard-source.json",
+      "sha256": "10350a4c1c721751dd52b7dadbf152ee58193937367496b7f86b6223a44b0bae",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-wizard/exports/bean-wizard.json",
+      "sha256": "968f2538477f64a59aa98b7639864e6a3e49cc1ab6b5f9def354e6f411678de3",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-wizard/exports/bean-wizard.4.3.json",
+      "sha256": "667aa2ee3915d610bb35288ceacd9194afc8e7b63a48891c3d997fb9e935ae7b",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-wizard/exports/bean-wizard.rigby",
+      "sha256": "e2998b638dae950b6bf4e9031f97dac7a810a1593516090a5681e16a0b60777c",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-wizard/exports/bean-wizard.skel",
+      "sha256": "a86a2708bf32da30c3ce93728c39f81248b8ba882a36eabbf36ab2114400fdfa",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-wizard/exports/bean-wizard.atlas",
+      "sha256": "1c9c01f4c7e6440c2aebb751140b71c75443b3962c7ff413b7a69fac7c2ea7e9",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-wizard/exports/bean-wizard.png",
+      "sha256": "975a87a89e3e293189a0532259e52f7c06b3b3ba3bed9f2b434ae65ff2e7886f",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/build/bean-chest-source.json",
+      "sha256": "bf5f4f4caa6d404b3199f884ee50bb3e63e0fb0e2db602151e9f49afc4451386",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/exports/bean-chest.json",
+      "sha256": "1f29a9a5e621b61f14623214d70b929d4ad2480d61302ef5bf4817e94fbd15ec",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/exports/bean-chest.4.3.json",
+      "sha256": "0faf77a9d9e0658449696621bd5aa005dfdcca16fcae50274c42d2719ee90248",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/exports/bean-chest.rigby",
+      "sha256": "36b9594f7ca6b845d7b88d94d007edea6ceb6a1a68f289d60e810f2edfd2a707",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/exports/bean-chest.skel",
+      "sha256": "46cefafbe87a50d8749be7aa682cbf831f93c756f90494df9d8c16a99145e814",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/exports/bean-chest.atlas",
+      "sha256": "e2cf80d1437ecc6928d02ec2dafa0c888d5ae91a40a94aff330b95cc855fe1c2",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/bean-chest/exports/bean-chest.png",
+      "sha256": "d91fcf969eb7472dcbd3752b3aca9b8b52a292c0ff05b416d75febfb7178de16",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/build/deathwing-native-fire-source.json",
+      "sha256": "f7f187f0a574273f38fc14fe96c76606b300767d317ae780ff16db9f36a7f898",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/exports/deathwing-native-fire.json",
+      "sha256": "6382998e439becf1eb91ad447535193b2883a535b837bd5eb7398a345c03eef3",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/exports/deathwing-native-fire.4.3.json",
+      "sha256": "a1bb5cd0a5ae5fee0a12714c65d16ff97d90436148457809de91efe032d9da5d",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/exports/deathwing-native-fire.rigby",
+      "sha256": "be9a5f8b91da9421d96ef6edfe2d2c49b74baa014fa73682f20c303690a149f5",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/exports/deathwing-native-fire.skel",
+      "sha256": "5495337241bc07bafe370542a1f773c7b3fe614ebe828c89f5e1cbd6651b2361",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/exports/deathwing-native-fire.atlas",
+      "sha256": "84620efe9f851f86e8269885074387657cc330c470e4736f130d6bf8feb11173",
+      "matchesAcceptedSourceCopy": true
+    },
+    {
+      "file": "examples/deathwing-native-fire/exports/deathwing-native-fire.png",
+      "sha256": "3da883a212a7a6a5a27d5c889aceebc9e750092a1089fe077c13cfe4980924c8",
+      "matchesAcceptedSourceCopy": true
+    }
+  ],
+  "browserCheck": {
+    "sourcePreview": "/project/web/original-fire.html",
+    "runtime": "Rigby2D 6069ae2",
+    "observed": "43 bones / 38 slots; ing at .4s; dark background; no black rectangles; return link reaches combined project",
+    "evidence": "validation/dodo-source-preview.png"
+  },
+  "credentialPatternScan": {
+    "textItems": 151,
+    "hits": 0,
+    "scope": "Common GitHub/API token and private-key markers in text files and rigby JSON/TXT members; not a complete secret audit."
+  },
+  "scope": "This release preserves previously accepted artwork and actions. Validates local package rebuild and new self-contained preview link; no new target-engine or cross-OS certification."
+}

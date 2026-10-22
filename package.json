@@ -1,0 +1,16 @@
+{
+  "name": "dodo-anim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node scripts/workbench.mjs doctor"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

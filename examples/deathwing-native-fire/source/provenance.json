@@ -1,0 +1,84 @@
+{
+  "bodySource": {
+    "path": "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-fire/build/deathwing-fire-source.json",
+    "sha256": "44a44d4b8dcd2a92a983b4ecc399f55e3a07ccfccb341e371105ffd68d839076",
+    "retainedBones": 18,
+    "retainedSlots": [
+      "far_wing",
+      "near_wing",
+      "body",
+      "jaw"
+    ],
+    "scope": "Character geometry and body motion copied; previous generated fire removed."
+  },
+  "fireSource": {
+    "project": "/Users/jojo/Downloads/fire/fire.spine",
+    "projectSha256": "e21c1f0449a38a2c171a3653993535e50d99696e55969fb25ba21b1c03f6e2b9",
+    "reconstructedJson": "/Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/local-fire-source/reverse-format/runtime/fire-original.json",
+    "jsonSha256": "f1d4f649fc634b2219588a32942b602240120b3f98c0de48a08736a9909392e2",
+    "originalEditorVersion": "3.8.75",
+    "formatTarget": "3.8.99",
+    "scope": "Original artwork, skeleton, attachments, timings, curves and draw-order tracks reused. Downloaded tutorial source; reuse rights not independently established."
+  },
+  "runtime": {
+    "source": "/Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/youtube-native/kimgisa/spine-webgl-3.8.js",
+    "commit": "8b4844bd4b193ba9e54487ed397a777993cbad56",
+    "sha256": "4b108bad314c152bf0ff7a7f56fce5c98073f05a2bfa53e880d6c24b6f7c3aa5"
+  },
+  "images": [
+    {
+      "role": "retained character image",
+      "original": "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-fire/assets/parts/far_wing.png",
+      "copy": "assets/parts/far_wing.png",
+      "sha256": "1613b5ace82cb078655f8055bb7344a1e5ec8000ccc673cfd99b113a40ae265b"
+    },
+    {
+      "role": "retained character image",
+      "original": "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-fire/assets/parts/near_wing.png",
+      "copy": "assets/parts/near_wing.png",
+      "sha256": "dd64a517c99ef4e7c38de5b5de948c4b8831b5adb62485ee4958e2f539044de5"
+    },
+    {
+      "role": "retained character image",
+      "original": "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-fire/assets/parts/body.png",
+      "copy": "assets/parts/body.png",
+      "sha256": "0ab454404c4d3e981fece511f6a58066401c56529d2bdea9e574950da4f6d854"
+    },
+    {
+      "role": "retained character image",
+      "original": "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-fire/assets/parts/jaw.png",
+      "copy": "assets/parts/jaw.png",
+      "sha256": "89f432406166af0e693c966452c26c9e805b8b6e829a2d19cbf4797ef255d65d"
+    },
+    {
+      "role": "native Spine effect image",
+      "original": "/Users/jojo/Downloads/fire/images/fire_1.png",
+      "copy": "assets/parts/native/fire_1.png",
+      "sha256": "c8777e08bf19ae5928355f91017c9a21537b4c7cdd8245c7f4db79bf3e807891"
+    },
+    {
+      "role": "native Spine effect image",
+      "original": "/Users/jojo/Downloads/fire/images/fire_2.png",
+      "copy": "assets/parts/native/fire_2.png",
+      "sha256": "bf7a555371a3ac33ac7324e3cfb3df30db24c9987b75f593b4e0f2b21d8e252e"
+    },
+    {
+      "role": "native Spine effect image",
+      "original": "/Users/jojo/Downloads/fire/images/fire_3.png",
+      "copy": "assets/parts/native/fire_3.png",
+      "sha256": "c88129f68a3ac18c0d735b8bf5209c80de1fce8291a3ccfe80ff574cac670637"
+    },
+    {
+      "role": "native Spine effect image",
+      "original": "/Users/jojo/Downloads/fire/images/fire_4.png",
+      "copy": "assets/parts/native/fire_4.png",
+      "sha256": "6f224c397cb062bc3871687a006498878cb89d633e02eaae5c2fbc79b453e2bb"
+    },
+    {
+      "role": "native Spine effect image",
+      "original": "/Users/jojo/Downloads/fire/images/gole.png",
+      "copy": "assets/parts/native/gole.png",
+      "sha256": "69ed7a8821419805d92c1816e887eac6a9a318636697efeaf27c99f28558b17d"
+    }
+  ]
+}

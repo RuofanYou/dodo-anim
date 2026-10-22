@@ -1,0 +1,10 @@
+{
+  "name": "deathwing-native-fire",
+  "sourceImage": "assets/parts/body.png",
+  "skeleton": "build/deathwing-native-fire-source.json",
+  "parts": "assets/parts",
+  "output": "exports",
+  "buildScript": "scripts/build.mjs",
+  "validationScript": "scripts/verify.mjs",
+  "inputs": ["source/body.json", "source/native-fire.json", "source/rig_spec.json", "source/provenance.json", "source/spine-webgl-3.8.js", "scripts/verify.mjs"]
+}

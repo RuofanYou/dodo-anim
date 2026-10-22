@@ -1,0 +1,374 @@
+{
+  "buildCopiesSourcePngBytesWithoutResize": true,
+  "artSource": "AI-generated concept approved by user, source pixels extracted by polygon masks",
+  "hiddenReconstruction": [
+    {
+      "id": "cape_tail",
+      "source_pixels": 47661,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "body",
+      "source_pixels": 46364,
+      "inpainted_hidden_pixels": 5193
+    },
+    {
+      "id": "leg_far",
+      "source_pixels": 8151,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "broom_shaft",
+      "source_pixels": 27351,
+      "inpainted_hidden_pixels": 4454
+    },
+    {
+      "id": "broom_brush",
+      "source_pixels": 105085,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "leg_near",
+      "source_pixels": 10692,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "head",
+      "source_pixels": 69299,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "cape_collar",
+      "source_pixels": 20799,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "hat",
+      "source_pixels": 167232,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "wand_arm",
+      "source_pixels": 4716,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "wand_hand",
+      "source_pixels": 6132,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "holding_arm",
+      "source_pixels": 7107,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "spark",
+      "source_pixels": 3376,
+      "inpainted_hidden_pixels": 0
+    },
+    {
+      "id": "neck_bridge",
+      "source_pixels": 0,
+      "inpainted_hidden_pixels": 37662
+    },
+    {
+      "id": "cape_underlap",
+      "source_pixels": 0,
+      "inpainted_hidden_pixels": 15906
+    }
+  ],
+  "bones": 26,
+  "slots": 16,
+  "imageSha256": {
+    "cape_underlap": "689fa21a500ec0503c11afd07df87fa2f3e0a43980785c3fcc1aeb0e82a7bc80",
+    "cape_tail": "b6c8db1af93024b3bffe70beb714ccff2c27b1bc75297ea326afb93c5bc48e6c",
+    "wand_arm": "db5dd537bbad224f01b8d44ce9344c9224cfb467576797776d1f97c638bebcf2",
+    "neck_bridge": "bd021d245a5a6e0e29ef02ecb783cfa4a146bf2ebe782ac9b9d1fb83020265a4",
+    "body": "bfcca89ee186e4178c42edbf25ce0d3b399aebc8e2da60727e16f19b0fe79d8a",
+    "leg_far": "91802ed0ab12ea075cf7d65244ce21880a66ab6baec1ab89ca059da837cf21be",
+    "broom_shaft": "493512592d4de59e5d0533d9e0e4dddb4d506cc148cd7cf7e9cb29930621e6fe",
+    "broom_brush": "d29c93ac07e9a482d201bdb9fb188e7a49a406ea82b3fa5323f07b4a6262ed92",
+    "leg_near": "3d42509f3e92914b7a80e1bd756b72646087bd53f3b892459754f178dbbf69d2",
+    "head": "1df56eb538e5e0846378c0bd10ab899628830781ce548f8eea17569f9071ad97",
+    "cape_collar": "52ea18eca78f781608ed3ee6a4de8693c251c49ccb5cd37d93e0aadc6c1d298d",
+    "hat": "7fcbc241db0da858cd4e4605119757369c63eeb34023b2d3fc33194a75e536f6",
+    "wand_hand": "734f9af02cc6e001e705dd2c8a69e6135024d6f02ff719fd673e3fb042bcb98a",
+    "holding_arm": "33df4d23209f0b9cd4706a968393900c63866b5b403004f75668ef4b643c73ef",
+    "spark": "2dd7bea1d69b50115455add3808aa3082099562349bc89955e5838910a3442be"
+  },
+  "meshGeometryChecks": [
+    {
+      "part": "cape_underlap",
+      "type": "mesh",
+      "maxRestPositionError": 3.252672229336895e-7,
+      "vertices": 132
+    },
+    {
+      "part": "cape_tail",
+      "type": "mesh",
+      "maxRestPositionError": 0.000026518827780819265,
+      "vertices": 663
+    },
+    {
+      "part": "wand_arm",
+      "type": "mesh",
+      "maxRestPositionError": 3.4730365428004006e-7,
+      "vertices": 121
+    },
+    {
+      "part": "neck_bridge",
+      "type": "mesh",
+      "maxRestPositionError": 3.112067190613743e-7,
+      "vertices": 187
+    },
+    {
+      "part": "body",
+      "type": "mesh",
+      "maxRestPositionError": 2.563787120379857e-7,
+      "vertices": 300
+    },
+    {
+      "part": "leg_far",
+      "type": "region",
+      "maxRestPositionError": 1.0824442142620683e-7,
+      "vertices": 4
+    },
+    {
+      "part": "broom_shaft",
+      "type": "region",
+      "maxRestPositionError": 7.550590908067534e-8,
+      "vertices": 4
+    },
+    {
+      "part": "broom_brush",
+      "type": "mesh",
+      "maxRestPositionError": 2.408867203484988e-7,
+      "vertices": 130
+    },
+    {
+      "part": "leg_near",
+      "type": "region",
+      "maxRestPositionError": 2.3783299241131317e-7,
+      "vertices": 4
+    },
+    {
+      "part": "head",
+      "type": "mesh",
+      "maxRestPositionError": 5.089567594041e-7,
+      "vertices": 360
+    },
+    {
+      "part": "cape_collar",
+      "type": "mesh",
+      "maxRestPositionError": 2.9396650802482327e-7,
+      "vertices": 210
+    },
+    {
+      "part": "hat",
+      "type": "mesh",
+      "maxRestPositionError": 9.017844604386482e-7,
+      "vertices": 165
+    },
+    {
+      "part": "wand_hand",
+      "type": "region",
+      "maxRestPositionError": 5.504927003130433e-7,
+      "vertices": 4
+    },
+    {
+      "part": "holding_arm",
+      "type": "mesh",
+      "maxRestPositionError": 1.7759107606707403e-7,
+      "vertices": 99
+    },
+    {
+      "part": "spark",
+      "type": "region",
+      "maxRestPositionError": 6.194352408783743e-7,
+      "vertices": 4
+    }
+  ],
+  "neckSurface": {
+    "sharedParts": [
+      "head",
+      "body",
+      "cape_collar",
+      "neck_bridge",
+      "cape_tail",
+      "cape_underlap"
+    ],
+    "worldYBreaks": [
+      570,
+      635,
+      700
+    ],
+    "globalGridStep": 20,
+    "weights": "head until570, head-to-torso570..635, torso-to-pelvis635..700, pelvis after700",
+    "sourceImageUnchanged": true,
+    "capeTransitionX": [
+      350,
+      500
+    ]
+  },
+  "choreographySha256": "1d3eb263e0be2879a58bef1c9b94ebf58a818e89dda2024ffab81b4c27827a57",
+  "projectile": {
+    "sourcePart": "spark",
+    "slot": "spell_bolt",
+    "bone": "spell_bolt",
+    "release": 0.68,
+    "flightEnd": 1.12,
+    "distance": 100,
+    "scale": 0.65,
+    "sourceCanvasRightLimit": 1454
+  },
+  "axes": [
+    {
+      "name": "root",
+      "localRotation": 0,
+      "length": 100
+    },
+    {
+      "name": "flight_root",
+      "localRotation": 0,
+      "length": 100
+    },
+    {
+      "name": "broom_base",
+      "localRotation": 18.8412951,
+      "length": 445.8923637
+    },
+    {
+      "name": "brush_root",
+      "localRotation": -178.0286486,
+      "length": 182.9371477
+    },
+    {
+      "name": "brush_tip",
+      "localRotation": -2.9807889,
+      "length": 150.2165104
+    },
+    {
+      "name": "pelvis",
+      "localRotation": 82.8749837,
+      "length": 104.8093507
+    },
+    {
+      "name": "torso",
+      "localRotation": 1.1160104,
+      "length": 114.629839
+    },
+    {
+      "name": "head",
+      "localRotation": 13.4940449,
+      "length": 138.1774222
+    },
+    {
+      "name": "hat_root",
+      "localRotation": 54.1672608,
+      "length": 330.6508733
+    },
+    {
+      "name": "hat_mid",
+      "localRotation": -314.8810759,
+      "length": 228.7290974
+    },
+    {
+      "name": "hat_tip",
+      "localRotation": 9.7938274,
+      "length": 76.0263112
+    },
+    {
+      "name": "cape_root",
+      "localRotation": -260.6024371,
+      "length": 304.5324285
+    },
+    {
+      "name": "cape_mid",
+      "localRotation": -1.0979469,
+      "length": 200.1599361
+    },
+    {
+      "name": "cape_tip",
+      "localRotation": 341.7639941,
+      "length": 72.8010989
+    },
+    {
+      "name": "holding_upperarm",
+      "localRotation": -134.5903334,
+      "length": 72.4706837
+    },
+    {
+      "name": "holding_forearm",
+      "localRotation": 27.6672389,
+      "length": 56.4623769
+    },
+    {
+      "name": "holding_hand",
+      "localRotation": 1.5614782,
+      "length": 24.6981781
+    },
+    {
+      "name": "wand_shoulder",
+      "localRotation": -71.3576321,
+      "length": 59.4390444
+    },
+    {
+      "name": "wand_elbow",
+      "localRotation": 19.4406389,
+      "length": 88.5098865
+    },
+    {
+      "name": "wand_wrist",
+      "localRotation": 33.1843551,
+      "length": 238.933045
+    },
+    {
+      "name": "wand",
+      "localRotation": 0,
+      "length": 238.933045
+    },
+    {
+      "name": "spark",
+      "localRotation": -65.2583559,
+      "length": 30
+    },
+    {
+      "name": "leg_far",
+      "localRotation": -169.4216674,
+      "length": 116.211015
+    },
+    {
+      "name": "leg_near",
+      "localRotation": -160.3998739,
+      "length": 115.7324501
+    },
+    {
+      "name": "holding_target",
+      "localRotation": 0,
+      "length": 0
+    },
+    {
+      "name": "spell_bolt",
+      "localRotation": 0,
+      "length": 30
+    }
+  ],
+  "actions": [
+    {
+      "name": "fly",
+      "duration": 4,
+      "loop": true
+    },
+    {
+      "name": "charge",
+      "duration": 2.8,
+      "loop": false
+    },
+    {
+      "name": "cast",
+      "duration": 2.2,
+      "loop": false
+    }
+  ]
+}

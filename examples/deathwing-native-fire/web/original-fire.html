@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>动动 Dodo · 原火焰对照</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f2e9;color:#2b332e;font:15px system-ui;display:grid;grid-template-rows:auto minmax(0,1fr) auto;height:100dvh}header,footer{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding:14px 22px;border-bottom:1px solid #d9d7cd}h1{font-size:18px;margin:0 auto 0 0}button,select{font:inherit;border:1px solid #bcbeb5;background:#fff;border-radius:5px;padding:6px 10px}canvas{width:100%;height:100%;display:block;min-height:0}footer{border-top:1px solid #d9d7cd;border-bottom:0;font-size:13px}input[type=range]{flex:1;min-width:100px}a{color:inherit}label{display:flex;align-items:center;gap:6px}body.dark{background:#101823;color:#e4e7e7}body.dark header,body.dark footer{border-color:#303946}
+</style>
+<header><h1>原 Spine 喷火</h1><label>动作 <select id="animation"></select></label><label>背景 <select id="background"><option value="light">浅色</option><option value="dark">深色</option></select></label><a href="/project/source/native-fire.json" download>恢复的 JSON</a><a href="./index.html">返回角色合成</a></header>
+<canvas id="canvas"></canvas>
+<footer><button id="play">暂停</button><button id="replay">重播</button><input id="seek" type="range" min="0" max="1.5" step="0.001"><output id="time"></output><label><input id="loop" type="checkbox" checked>循环</label><span id="status">正在载入原动作</span></footer>
+<script type="module" src="./original-fire.mjs"></script>
+</html>

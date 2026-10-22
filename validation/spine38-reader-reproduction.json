@@ -1,0 +1,98 @@
+{
+  "description": "Portable copied reader run from a separate working directory against both previously inspected source files.",
+  "python": "Python 3.14.7",
+  "readerFiles": {
+    "export_runtime.py": "af0107e952b6542fe067332922ec0f21feae3a20df7d0624f7c65dd815d65f29",
+    "read_animation_graph.py": "2721ff8e633a4ab8be5087ce009ba6a804e06d8f942a59f6888951497d4bc738",
+    "bones-study/extract_bones.py": "78ff2c6661f0bd45b8df26af94390a9e2237b6de6199009aded53be35499823c",
+    "attachments-study/extract_attachments.py": "2da5c1f43acbe6e3b577eef3368491aa6bd93d6dae3b2ba9e053a8033e7a2917"
+  },
+  "fixtures": [
+    {
+      "label": "fire",
+      "command": [
+        "python3",
+        "/Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py",
+        "--source",
+        "/Users/jojo/Downloads/fire/fire.spine",
+        "--output",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/fire",
+        "--label",
+        "fire"
+      ],
+      "shellCommand": "python3 /Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py --source /Users/jojo/Downloads/fire/fire.spine --output /Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/fire --label fire",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/independent-cwd",
+      "exitCode": 0,
+      "source": "/Users/jojo/Downloads/fire/fire.spine",
+      "sourceSha256": "e21c1f0449a38a2c171a3653993535e50d99696e55969fb25ba21b1c03f6e2b9",
+      "sourceUnchanged": true,
+      "output": "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/fire/fire-original.json",
+      "canonical": "/Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/local-fire-source/reverse-format/runtime/fire-original.json",
+      "outputSha256": "f1d4f649fc634b2219588a32942b602240120b3f98c0de48a08736a9909392e2",
+      "canonicalSha256": "f1d4f649fc634b2219588a32942b602240120b3f98c0de48a08736a9909392e2",
+      "byteIdenticalToCanonical": true
+    },
+    {
+      "label": "paired",
+      "command": [
+        "python3",
+        "/Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py",
+        "--source",
+        "/Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/youtube-native/kimgisa/source/Tutorial_15_fx_flow/ep_01.spine",
+        "--output",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/paired",
+        "--label",
+        "paired"
+      ],
+      "shellCommand": "python3 /Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py --source /Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/youtube-native/kimgisa/source/Tutorial_15_fx_flow/ep_01.spine --output /Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/paired --label paired",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/independent-cwd",
+      "exitCode": 0,
+      "source": "/Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/youtube-native/kimgisa/source/Tutorial_15_fx_flow/ep_01.spine",
+      "sourceSha256": "f95bccb0126c6c4cdeefdb03c7b0aa62b6edfadfd511868cb5b1e6068c7ed19d",
+      "sourceUnchanged": true,
+      "output": "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/paired/paired-original.json",
+      "canonical": "/Users/jojo/JOJO/work/fire-reuse-research-20261022/spine-candidates/local-fire-source/reverse-format/runtime/paired-original.json",
+      "outputSha256": "3542ab0c94bdc9b266b9b0ec1e95d1416a396721e771971f59a0dccfb079e753",
+      "canonicalSha256": "3542ab0c94bdc9b266b9b0ec1e95d1416a396721e771971f59a0dccfb079e753",
+      "byteIdenticalToCanonical": true
+    }
+  ],
+  "argumentChecks": [
+    {
+      "case": "no_arguments",
+      "command": [
+        "python3",
+        "/Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py"
+      ],
+      "exitCode": 2,
+      "requiredArgumentsRejected": true,
+      "stderr": "usage: export_runtime.py [-h] --source SOURCE --output OUTPUT\n                         [--label {fire,paired}]\nexport_runtime.py: error: the following arguments are required: --source, --output\n"
+    },
+    {
+      "case": "missing_output",
+      "command": [
+        "python3",
+        "/Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py",
+        "--source",
+        "/Users/jojo/Downloads/fire/fire.spine"
+      ],
+      "exitCode": 2,
+      "requiredArgumentsRejected": true,
+      "stderr": "usage: export_runtime.py [-h] --source SOURCE --output OUTPUT\n                         [--label {fire,paired}]\nexport_runtime.py: error: the following arguments are required: --output\n"
+    },
+    {
+      "case": "missing_source",
+      "command": [
+        "python3",
+        "/Users/jojo/JOJO/work/game-animation-workbench/scripts/spine38-reader/export_runtime.py",
+        "--output",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/spine38-reader-reproduction/unused-output"
+      ],
+      "exitCode": 2,
+      "requiredArgumentsRejected": true,
+      "stderr": "usage: export_runtime.py [-h] --source SOURCE --output OUTPUT\n                         [--label {fire,paired}]\nexport_runtime.py: error: the following arguments are required: --source\n"
+    }
+  ],
+  "allPassed": true,
+  "scope": "This proves byte-for-byte reproduction of the two canonical recovered JSON files. It does not establish support for other .spine projects, nor commercial permission for source artwork."
+}

@@ -1,0 +1,75 @@
+bean-chest.png
+size: 2048,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box_back
+  rotate: false
+  xy: 3,2165
+  size: 1057,156
+  orig: 1057,156
+  offset: 0,0
+  index: -1
+box_front
+  rotate: false
+  xy: 3,1480
+  size: 1057,353
+  orig: 1057,353
+  offset: 0,0
+  index: -1
+clasp
+  rotate: false
+  xy: 1295,1839
+  size: 234,213
+  orig: 234,213
+  offset: 0,0
+  index: -1
+glow
+  rotate: false
+  xy: 1033,1839
+  size: 256,256
+  orig: 256,256
+  offset: 0,0
+  index: -1
+hinge_band
+  rotate: false
+  xy: 3,2327
+  size: 828,16
+  orig: 828,16
+  offset: 0,0
+  index: -1
+lid_edge
+  rotate: false
+  xy: 1168,2165
+  size: 640,64
+  orig: 640,64
+  offset: 0,0
+  index: -1
+lid_inner
+  rotate: false
+  xy: 3,1839
+  size: 1024,320
+  orig: 1024,320
+  offset: 0,0
+  index: -1
+lid_outer
+  rotate: false
+  xy: 3,992
+  size: 1921,482
+  orig: 1921,482
+  offset: 0,0
+  index: -1
+reward
+  rotate: false
+  xy: 3,3
+  size: 593,983
+  orig: 593,983
+  offset: 0,0
+  index: -1
+spark
+  rotate: false
+  xy: 1066,2165
+  size: 96,96
+  orig: 96,96
+  offset: 0,0
+  index: -1

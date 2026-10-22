@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "runtime": "Rigby2D 6069ae2 + Three.js 0.186.1 BoxGeometry/PerspectiveCamera",
+  "sampledHz": 240,
+  "frames": 3939,
+  "maxHingeError": 0.000012627084886596387,
+  "maxBodyMotion": 0,
+  "maxProjectionError": 0.47520786775900026,
+  "maxPhysicalThicknessError": 3.552713678800501e-14,
+  "physicalThickness": 50,
+  "minHingeAlpha": 0.9999384851980008,
+  "actions": [
+    {
+      "name": "showcase",
+      "frames": 1729,
+      "minLidFaces": 1,
+      "maxLidFaces": 2
+    },
+    {
+      "name": "open",
+      "frames": 865,
+      "minLidFaces": 1,
+      "maxLidFaces": 2
+    },
+    {
+      "name": "rig_test",
+      "frames": 1345,
+      "minLidFaces": 1,
+      "maxLidFaces": 2
+    }
+  ],
+  "buildManifestSha256": "8915f9eb205f9f7219099dc0f3a9b3b35b5c449ae21847832f70b113957ae9d1",
+  "scope": "Actual 2D playback checked against projected Three rigid cuboid, fixed hinge/body, non-disappearing lid with real thickness, layer order, event timing and reward gate. Visual material/perspective acceptance and external Spine consumption are recorded separately."
+}

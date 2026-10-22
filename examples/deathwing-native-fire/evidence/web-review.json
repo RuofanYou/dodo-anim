@@ -1,0 +1,56 @@
+{
+  "url": "http://127.0.0.1:3067/project/web/index.html",
+  "browser": "Chrome, WebGL, Rigby2D fixed vendor runtime",
+  "status": "visual and control checks passed",
+  "observedRig": {
+    "bones": 62,
+    "slots": 42
+  },
+  "checkedStates": [
+    {
+      "time": 1.78,
+      "background": "light",
+      "bones": true,
+      "evidence": "web-1.78-bones.png"
+    },
+    {
+      "time": 2.6,
+      "background": "light",
+      "bones": false,
+      "evidence": "web-2.60-light.png"
+    },
+    {
+      "time": 3.4,
+      "background": "dark",
+      "bones": false,
+      "evidence": "web-3.40-dark.png"
+    },
+    {
+      "time": 4.15,
+      "background": "light",
+      "bones": false,
+      "evidence": "web-4.15-clear.png"
+    }
+  ],
+  "observed": [
+    "Native flame follows mouth during head sweep",
+    "Original normal/additive blending renders without black rectangles",
+    "Cutoff clears visible flame",
+    "Timeline scrubbing, background switching, bone overlay and replay respond"
+  ],
+  "console": {
+    "captured": [
+      {
+        "level": "error",
+        "message": "Error: Could not establish connection. Receiving end does not exist."
+      }
+    ],
+    "assessment": "Browser messaging error with no source stack available; no corresponding rendering failure observed. Do not claim a clean console."
+  },
+  "notVerified": [
+    "mobile viewport",
+    "C++/Skia",
+    "official editor reimport",
+    "target game integration"
+  ]
+}

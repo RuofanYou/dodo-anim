@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "task": "README 无上下文冷启动：死亡之翼原生喷火本地独立副本复建",
+  "status": "passed_with_explicit_unverified_scope",
+  "completedAt": "2026-10-22T16:45:39.543610+08:00",
+  "workbench": "/Users/jojo/JOJO/work/game-animation-workbench",
+  "project": "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project",
+  "entriesRead": [
+    "/Users/jojo/JOJO/AGENTS.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/AGENTS.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/README.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/SKILL.md"
+  ],
+  "referencesRead": [
+    "/Users/jojo/JOJO/work/game-animation-workbench/references/workflow.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/references/rigging-decisions.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/references/native-effect-reuse.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/references/acceptance.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/README.md",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/workbench.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/source/provenance.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/source/rig_spec.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/scripts/build.mjs",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/scripts/verify.mjs",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/scripts/sample_composite.mjs",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/web/index.html",
+    "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire/web/preview.mjs",
+    "/Users/jojo/JOJO/work/game-animation-workbench/scripts/workbench.mjs",
+    "/Users/jojo/JOJO/work/game-animation-workbench/templates/player.mjs",
+    "/Users/jojo/JOJO/work/game-animation-workbench/package.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/requirements.txt",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/README.md"
+  ],
+  "languageSkillRead": "/Users/jojo/.codex/skills/rofan-voice/SKILL.md",
+  "sourceSelection": {
+    "source": "/Users/jojo/JOJO/work/game-animation-workbench/examples/deathwing-native-fire",
+    "reason": "README 将该例列为已认可的角色与成熟原生喷火组合，恰好覆盖本次保留现有形象和动作的要求；其 source/assets 和项目相对构建脚本足以重建，不需要历史聊天或旧 Downloads 路径。",
+    "retained": "source/ 与 assets/ 全量复制，build.mjs、verify.mjs、web/ 和 workbench.json 保持字节一致；没有重画、换动作或改参数。",
+    "copiedFiles": 20,
+    "copiedInputsAllIdentical": true,
+    "notCopied": "原 exports/、build/、evidence/ 和 MP4 未复制；本次 build/exports/evidence 由脚本新建。",
+    "license": "随 source/SPINE-RUNTIME-LICENSE 保留运行时许可。原火焰图像和动作的商用或再分发许可尚未确认，沿用来源记录。"
+  },
+  "environment": {
+    "network": "Only 127.0.0.1 preview HTTP was requested. No external network, install or generation service was used.",
+    "node": "24.18.0",
+    "python": "3.12.14",
+    "pythonExecutable": "/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "rigbyCommit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415"
+  },
+  "commands": [
+    {
+      "label": "doctor-default-venv",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "node",
+        "scripts/workbench.mjs",
+        "doctor",
+        "--python",
+        ".venv/bin/python"
+      ],
+      "exitCode": 1,
+      "stdout": "Node v24.18.0; Rigby2D 6069ae2\n",
+      "stderr": "workbench: /Users/jojo/JOJO/work/game-animation-workbench/.venv/bin/python failed: spawnSync /Users/jojo/JOJO/work/game-animation-workbench/.venv/bin/python ENOENT\n"
+    },
+    {
+      "label": "probe-path-python",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "command": "command -v node python3 python python3.13 python3.12 python3.11; python3 -c <stdlib importlib probe>",
+      "exitCode": 0,
+      "result": {
+        "pythonExecutable": "/Users/jojo/.homebrew/opt/python@3.14/bin/python3.14",
+        "pythonVersion": "3.14.7",
+        "pillowInstalled": false,
+        "numpyInstalled": false
+      }
+    },
+    {
+      "label": "locate-existing-runtime",
+      "tool": "mcp__codex_app__load_workspace_dependencies",
+      "result": "Read-only discovery of already installed Python; no package install",
+      "python": "/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+    },
+    {
+      "label": "doctor-installed-runtime",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "node",
+        "scripts/workbench.mjs",
+        "doctor",
+        "--python",
+        "/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+      ],
+      "exitCode": 0,
+      "stdout": "Node v24.18.0; Rigby2D 6069ae2\n{\"python\": \"3.12.14\", \"pillow\": \"12.3.0\", \"numpy\": \"2.3.5\"}\n",
+      "stderr": ""
+    },
+    {
+      "label": "init",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "node",
+        "scripts/workbench.mjs",
+        "init",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project"
+      ],
+      "exitCode": 0,
+      "stdout": "Created /Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project/workbench.json; supply the referenced artwork and standard Spine JSON.\n",
+      "stderr": ""
+    },
+    {
+      "label": "build",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "node",
+        "scripts/workbench.mjs",
+        "build",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project",
+        "--python",
+        "/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "--exchange"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"bones\":62,\"slots\":42,\"animations\":[\"native__animation\",\"native__animation2\",\"native__effect\",\"native__end\",\"native__ing\",\"breathe_fire\"],\"sourceMaxExtent\":420.439535005434,\"worldScale\":2.7352327843886917,\"wrapperLocalScale\":2.026098358806438}\n{\"atlasSize\": [2048, 2048], \"images\": 9, \"pixelCopyVerified\": true}\n{\"status\":\"passed\",\"bodyBonesByteValueUnchanged\":true,\"bodyTracksUnchanged\":true,\"originalSourceAnimationsUnchanged\":[\"animation\",\"animation2\",\"effect\",\"end\",\"ing\"],\"boneCount\":62,\"slotCount\":42,\"weightedInfluencesChecked\":4630,\"allMaterialHashesMatched\":[\"assets/parts/far_wing.png\",\"assets/parts/near_wing.png\",\"assets/parts/body.png\",\"assets/parts/jaw.png\",\"assets/parts/native/fire_1.png\",\"assets/parts/native/fire_2.png\",\"assets/parts/native/fire_3.png\",\"assets/parts/native/fire_4.png\",\"assets/parts/native/gole.png\"],\"bodyMatrixSamples\":361,\"maxBodyMatrixError\":0,\"emitterSamples\":148,\"maxEmitterDistance\":3.205933259855938e-7,\"worldNonfinite\":0,\"scope\":\"Original data and adapted registration checked using official Spine 3.8. Does not certify appearance, 4.3 equivalence, C++/Skia, or target-device performance.\"}\n{\"status\":\"passed\",\"output\":\"exports\",\"exchange\":true}\n",
+      "stderr": ""
+    },
+    {
+      "label": "validate",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "node",
+        "scripts/workbench.mjs",
+        "validate",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project",
+        "--python",
+        "/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"status\":\"passed\",\"bodyBonesByteValueUnchanged\":true,\"bodyTracksUnchanged\":true,\"originalSourceAnimationsUnchanged\":[\"animation\",\"animation2\",\"effect\",\"end\",\"ing\"],\"boneCount\":62,\"slotCount\":42,\"weightedInfluencesChecked\":4630,\"allMaterialHashesMatched\":[\"assets/parts/far_wing.png\",\"assets/parts/near_wing.png\",\"assets/parts/body.png\",\"assets/parts/jaw.png\",\"assets/parts/native/fire_1.png\",\"assets/parts/native/fire_2.png\",\"assets/parts/native/fire_3.png\",\"assets/parts/native/fire_4.png\",\"assets/parts/native/gole.png\"],\"bodyMatrixSamples\":361,\"maxBodyMatrixError\":0,\"emitterSamples\":148,\"maxEmitterDistance\":3.205933259855938e-7,\"worldNonfinite\":0,\"scope\":\"Original data and adapted registration checked using official Spine 3.8. Does not certify appearance, 4.3 equivalence, C++/Skia, or target-device performance.\"}\n{\"status\":\"passed\",\"output\":\"exports\"}\n",
+      "stderr": ""
+    },
+    {
+      "label": "preview",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "node",
+        "scripts/workbench.mjs",
+        "preview",
+        "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project",
+        "--port",
+        "62812"
+      ],
+      "pid": 28721,
+      "stdout": "Preview: http://127.0.0.1:62812/\n",
+      "status": "listening",
+      "exitCode": null
+    },
+    {
+      "label": "http-resources",
+      "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+      "argv": [
+        "python3",
+        "validation/readme-cold-start/check-http.py"
+      ],
+      "exitCode": 0,
+      "result": {
+        "status": "passed",
+        "resourcesChecked": 39
+      }
+    }
+  ],
+  "results": {
+    "build": "passed",
+    "validate": "passed",
+    "projectValidation": "passed",
+    "bones": 62,
+    "slots": 42,
+    "sourceAnimationsPreserved": [
+      "animation",
+      "animation2",
+      "effect",
+      "end",
+      "ing"
+    ],
+    "imagesPreserved": 9,
+    "weightedInfluencesChecked": 4630,
+    "bodyMatrixSamples": 361,
+    "maxBodyMatrixError": 0,
+    "emitterSamples": 148,
+    "maxEmitterDistance": 3.205933259855938e-07,
+    "worldNonfinite": 0,
+    "rebuiltArtifactsComparedWithSample": 16,
+    "rebuiltArtifactsAllIdentical": true,
+    "recognizedSampleReadonly": {
+      "status": "passed",
+      "checkedFiles": 62,
+      "unchanged": true,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "httpResourceStatus": "passed",
+    "httpResourcesChecked": 39,
+    "buildManifestSha256": "3114c047b045281936e70473679c4fb32a1958315b2813ad2fbbe20e7fe8156e"
+  },
+  "preview": {
+    "status": "running",
+    "pid": 28721,
+    "argv": [
+      "node",
+      "scripts/workbench.mjs",
+      "preview",
+      "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project",
+      "--port",
+      "62812"
+    ],
+    "cwd": "/Users/jojo/JOJO/work/game-animation-workbench",
+    "url": "http://127.0.0.1:62812/",
+    "projectPreviewUrl": "http://127.0.0.1:62812/project/web/index.html",
+    "log": "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/preview.log",
+    "browserOpened": false
+  },
+  "documentationGaps": [
+    {
+      "topic": "已有原生喷火样例复制到任意新目录的具体最小文件集",
+      "observed": "README 要求在新副本复用，但样例复现段要求保留 examples 中的相对目录，没有给出独立副本复制命令。",
+      "resolution": "读取 workbench.json 的路径和 inputs，再检查 build.mjs/verify.mjs 的 fileURLToPath 项目根定位。确认它们只读项目相对 source/assets 后，复制 source/assets/web、两个入口脚本与原配置，保留工程名，再运行成功。没有修改 README。",
+      "blocking": false
+    },
+    {
+      "topic": "预览示例链接的端口",
+      "observed": "样例页有旧 3067 角色链接与 3066 原火焰对照链接；独立服务启动后应使用终端新输出地址。",
+      "resolution": "按 README 规则启动新服务，项目主预览位于本次 origin 下 /project/web/index.html。保留的对照导航仍指向历史端口，未访问、未作为本次依赖或验收证据。",
+      "blocking": false
+    }
+  ],
+  "environmentFindings": [
+    {
+      "issue": "工作台 .venv/bin/python 不存在，PATH python3 缺 Pillow/NumPy。",
+      "resolution": "按 README --python 入口使用本机已安装 Python；解释器具体位置通过应用只读 runtime discovery 找到，然后 doctor 通过。未安装依赖。"
+    }
+  ],
+  "checkScope": [
+    "README 指导下的入口发现、现有解释器选择、独立副本构建和验证。",
+    "固定 Rigby2D 对主 JSON、.rigby、4.3 JSON、.skel 的解析、往返和有限值检查。",
+    "项目原图片哈希、原身体轨道和五条原火焰动画保留、权重引用与喷口数值注册检查。",
+    "新启动本地服务的 HTML、项目配置、spec、全部清单交付资源与递归静态 JS 模块 HTTP 可达及响应字节对照。",
+    "认可样例 62 文件构建前后 SHA-256 对比。"
+  ],
+  "notTested": [
+    "没有打开浏览器；WebGL 初始化、实际播放、画面、控制交互、深浅背景混合和视觉效果均未在本次重验。HTTP 200 不构成视觉验收。",
+    "没有执行官方 Spine 4.3 JSON/binary 独立逐帧等价比较。样例已知的离散关键帧 float32 时间边界并未在本次重验或消除。",
+    "官方编辑器重导入、C++/Skia、手机、目标游戏、性能与跨操作系统未测。",
+    "没有重新导出或验证 MP4；认可样例 MP4 未复制。",
+    "没有依赖安装、外部网络、生成服务、上传、游戏修改或 memory 读写。"
+  ],
+  "evidence": [
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/commands.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/copied-inputs.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/sample-readonly-baseline.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/sample-readonly-check.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/reproduction-comparison.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/http-resources.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/preview-service.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/preview.log",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project/exports/build-manifest.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project/exports/validation.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project/evidence/verification.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project/evidence/schedule-samples.json",
+    "/Users/jojo/JOJO/work/game-animation-workbench/validation/readme-cold-start/project/evidence/adaptation.json"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "character": "Existing character rig, artwork and 6-second body tracks retained.",
+  "effect": "Original Spine fire source rig, artwork and five source animations retained under native__ names.",
+  "composition": "Official Spine 3.8 AnimationState schedules effect[0,.2], ing loop, end with .08 mixing; 60Hz local-pose sampling; source motion not redesigned.",
+  "registration": "Per-frame original emitter world point is registered to mouth_socket by wrapper translation; wrapper scale compensates the retained headScale1.35.",
+  "bodyBoneCount": 18,
+  "nativeBoneCount": 43,
+  "bones": 62,
+  "slots": 42,
+  "sourceAnimations": [
+    "animation",
+    "animation2",
+    "effect",
+    "end",
+    "ing"
+  ],
+  "targetNominalWorldLength": 1150,
+  "presentationStage": {
+    "spine": "3.8.99",
+    "images": "./images/",
+    "fps": 60,
+    "x": -940,
+    "y": -130,
+    "width": 3120,
+    "height": 1310
+  }
+}

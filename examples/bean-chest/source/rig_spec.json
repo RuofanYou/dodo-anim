@@ -1,0 +1,66 @@
+{
+  "name": "bean-chest",
+  "origin": [
+    724,
+    970
+  ],
+  "canvas": [
+    1448,
+    1086
+  ],
+  "hingeSource": [
+    [
+      311,
+      491
+    ],
+    [
+      1139,
+      491
+    ]
+  ],
+  "rewardSize": [
+    200,
+    295
+  ],
+  "rewardCenterX": 724,
+  "floorY": 980,
+  "volume": {
+    "dimensions": {
+      "width": 1000,
+      "depth": 377.5163706332757,
+      "thickness": 50
+    },
+    "segments": [
+      8,
+      1,
+      4
+    ],
+    "viewport": [
+      1448,
+      1086
+    ],
+    "origin": [
+      724,
+      970
+    ],
+    "hingeSource": [
+      725,
+      491
+    ],
+    "camera": {
+      "position": [
+        0,
+        674.399525447008,
+        1311.663173587851
+      ],
+      "target": [
+        0,
+        -310.38015696622807,
+        0
+      ],
+      "fov": 48.558137101341764,
+      "near": 1,
+      "far": 10000
+    }
+  }
+}

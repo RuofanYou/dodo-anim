@@ -1,0 +1,113 @@
+{
+  "canvas": [
+    1448,
+    1086
+  ],
+  "origin": [
+    724,
+    970
+  ],
+  "parts": [
+    {
+      "id": "box_back",
+      "file": "assets/parts/box_back.png",
+      "x": 197,
+      "y": 491,
+      "width": 1057,
+      "height": 156,
+      "kind": "painted"
+    },
+    {
+      "id": "box_front",
+      "file": "assets/parts/box_front.png",
+      "x": 197,
+      "y": 633,
+      "width": 1057,
+      "height": 353,
+      "kind": "painted"
+    },
+    {
+      "id": "clasp",
+      "file": "assets/parts/clasp.png",
+      "x": 607,
+      "y": 615,
+      "width": 234,
+      "height": 213,
+      "kind": "painted"
+    },
+    {
+      "id": "lid_outer",
+      "file": "assets/parts/lid_outer.png",
+      "x": 126,
+      "y": 117,
+      "width": 1921,
+      "height": 482,
+      "kind": "painted"
+    },
+    {
+      "id": "hinge_band",
+      "file": "assets/parts/hinge_band.png",
+      "x": 0,
+      "y": 0,
+      "width": 828,
+      "height": 16,
+      "kind": "gold hinge material extracted from lid panel",
+      "origin": [
+        311,
+        491
+      ]
+    },
+    {
+      "id": "lid_inner",
+      "file": "assets/parts/lid_inner.png",
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 320,
+      "kind": "painted inner panel rectified to material UV"
+    },
+    {
+      "id": "lid_edge",
+      "file": "assets/parts/lid_edge.png",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 64,
+      "kind": "matching wood thickness material with original gold rim"
+    },
+    {
+      "id": "reward",
+      "file": "assets/parts/reward.png",
+      "x": 329,
+      "y": 133,
+      "width": 593,
+      "height": 983,
+      "kind": "painted"
+    },
+    {
+      "id": "spark",
+      "file": "assets/parts/spark.png",
+      "x": 0,
+      "y": 0,
+      "width": 96,
+      "height": 96,
+      "kind": "procedural effect"
+    },
+    {
+      "id": "glow",
+      "file": "assets/parts/glow.png",
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256,
+      "kind": "procedural effect"
+    }
+  ],
+  "sourceSha256": {
+    "lid-panel.png": "d75f98c192a382e973f3fd246cbcd96e612908242d318d503e4f8e67572db47c",
+    "master-closed.png": "8706d3d77fda15ab2394d5567e4fc9cf0ebaba83b3981958637b013fa800aa46",
+    "master-open.png": "13293f79682e8a7303cfea9443787a6a16f653e8ce6db2c2e7cafc9a00a0bf68",
+    "reward-seed.png": "3b4cfa8e784de2a6fad5e384370839431be3c164200f70f8fd309a5481c042ab"
+  },
+  "scope": "Painted prop surfaces extracted from static image_gen renders; flat outer panel, inner side and hidden cavity are separately prepared matching material. Closed lid is registered to the shared hinge plane, not claimed pixel-identical to the concept composite."
+}

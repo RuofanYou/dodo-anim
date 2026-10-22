@@ -1,0 +1,110 @@
+bean-wizard.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 741,516
+  size: 354,241
+  orig: 354,241
+  offset: 0,0
+  index: -1
+broom_brush
+  rotate: false
+  xy: 864,3
+  size: 484,325
+  orig: 484,325
+  offset: 0,0
+  index: -1
+broom_shaft
+  rotate: false
+  xy: 1101,516
+  size: 647,241
+  orig: 647,241
+  offset: 0,0
+  index: -1
+cape_collar
+  rotate: false
+  xy: 812,771
+  size: 389,125
+  orig: 389,125
+  offset: 0,0
+  index: -1
+cape_tail
+  rotate: false
+  xy: 3,516
+  size: 732,249
+  orig: 732,249
+  offset: 0,0
+  index: -1
+cape_underlap
+  rotate: false
+  xy: 595,771
+  size: 211,127
+  orig: 211,127
+  offset: 0,0
+  index: -1
+hat
+  rotate: false
+  xy: 3,3
+  size: 855,507
+  orig: 855,507
+  offset: 0,0
+  index: -1
+head
+  rotate: false
+  xy: 1354,3
+  size: 357,296
+  orig: 357,296
+  offset: 0,0
+  index: -1
+holding_arm
+  rotate: false
+  xy: 1207,771
+  size: 148,121
+  orig: 148,121
+  offset: 0,0
+  index: -1
+leg_far
+  rotate: false
+  xy: 1885,516
+  size: 106,157
+  orig: 106,157
+  offset: 0,0
+  index: -1
+leg_near
+  rotate: false
+  xy: 1754,516
+  size: 125,194
+  orig: 125,194
+  offset: 0,0
+  index: -1
+neck_bridge
+  rotate: false
+  xy: 3,771
+  size: 292,149
+  orig: 292,149
+  offset: 0,0
+  index: -1
+spark
+  rotate: false
+  xy: 459,771
+  size: 130,140
+  orig: 130,140
+  offset: 0,0
+  index: -1
+wand_arm
+  rotate: false
+  xy: 301,771
+  size: 152,145
+  orig: 152,145
+  offset: 0,0
+  index: -1
+wand_hand
+  rotate: false
+  xy: 1717,3
+  size: 156,264
+  orig: 156,264
+  offset: 0,0
+  index: -1

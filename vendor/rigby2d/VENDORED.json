@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "name": "rigby2d",
+  "upstream": {
+    "repository": "https://github.com/jaisurya-dev-art/rigby2d",
+    "commit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415",
+    "version": "0.2.4",
+    "license": "MIT OR Apache-2.0"
+  },
+  "selection": {
+    "method": "Transitive relative-module and import.meta.url worker dependencies of the listed entrypoints, extracted from tracked Git objects.",
+    "entrypoints": [
+      "src/core/index.js",
+      "src/webgl/renderer.js",
+      "src/mcp/tools.js",
+      "src/editor/zip.js",
+      "src/editor/render/offline.js",
+      "src/mcp/png.js"
+    ],
+    "source_files": 31,
+    "total_upstream_files": 34,
+    "source_extraction": "git show 6069ae2ef8cfbb622053a84e7ccd4acc74c06415:<path>",
+    "source_changes": false
+  },
+  "runtime_requirements": {
+    "node": ">=20 for MCP tools",
+    "module_format": "ES modules; the consuming package must enable ESM",
+    "browser_preview": "WebGL; DOM canvas or OffscreenCanvas",
+    "browser_video_encoding": "WebCodecs VideoEncoder and VideoFrame; audio encoding uses browser audio APIs when present",
+    "optional_psd_import": {
+      "package": "ag-psd",
+      "upstream_range": "^31.0.3",
+      "loaded_by": "src/editor/io.js#importPsd",
+      "loading": "Dynamic import; not required by the selected core, validation or deterministic rendering APIs unless importPsd is called."
+    }
+  },
+  "external_imports": [
+    {
+      "file": "src/editor/io.js",
+      "specifier": "ag-psd",
+      "kind": "optional_dynamic_import"
+    },
+    {
+      "file": "src/mcp/edits.js",
+      "specifier": "node:fs/promises",
+      "kind": "node_builtin"
+    },
+    {
+      "file": "src/mcp/edits.js",
+      "specifier": "node:path",
+      "kind": "node_builtin"
+    },
+    {
+      "file": "src/mcp/film.js",
+      "specifier": "node:fs/promises",
+      "kind": "node_builtin"
+    },
+    {
+      "file": "src/mcp/film.js",
+      "specifier": "node:path",
+      "kind": "node_builtin"
+    },
+    {
+      "file": "src/mcp/png.js",
+      "specifier": "node:zlib",
+      "kind": "node_builtin"
+    },
+    {
+      "file": "src/mcp/tools.js",
+      "specifier": "node:fs/promises",
+      "kind": "node_builtin"
+    },
+    {
+      "file": "src/mcp/tools.js",
+      "specifier": "node:path",
+      "kind": "node_builtin"
+    }
+  ],
+  "dependency_graph": {
+    "src/core/animation.js": [
+      "./curve.js",
+      "./math.js"
+    ],
+    "src/core/atlas.js": [],
+    "src/core/binary.js": [
+      "./interop.js"
+    ],
+    "src/core/clipping.js": [],
+    "src/core/constraintdata.js": [],
+    "src/core/constraints.js": [
+      "./math.js"
+    ],
+    "src/core/curve.js": [],
+    "src/core/index.js": [
+      "./animation.js",
+      "./atlas.js",
+      "./curve.js",
+      "./interop.js",
+      "./math.js",
+      "./model.js",
+      "./pose.js",
+      "./state.js"
+    ],
+    "src/core/interop.js": [
+      "./animation.js",
+      "./clipping.js",
+      "./curve.js",
+      "./model.js",
+      "./pose.js"
+    ],
+    "src/core/keying.js": [
+      "./animation.js",
+      "./curve.js",
+      "./pose.js"
+    ],
+    "src/core/math.js": [],
+    "src/core/model.js": [
+      "./animation.js",
+      "./constraintdata.js",
+      "./curve.js",
+      "./math.js",
+      "./poses.js"
+    ],
+    "src/core/pose.js": [
+      "./animation.js",
+      "./constraints.js",
+      "./curve.js",
+      "./math.js",
+      "./model.js",
+      "./sequence.js"
+    ],
+    "src/core/poses.js": [
+      "./math.js"
+    ],
+    "src/core/sequence.js": [],
+    "src/core/state.js": [],
+    "src/editor/audio.js": [],
+    "src/editor/io.js": [
+      "../core/atlas.js",
+      "../core/binary.js",
+      "../core/interop.js",
+      "../core/math.js",
+      "../core/model.js",
+      "../core/pose.js",
+      "../core/sequence.js",
+      "./pack.js",
+      "./zip.js",
+      "ag-psd"
+    ],
+    "src/editor/output.js": [
+      "../core/pose.js"
+    ],
+    "src/editor/pack.js": [],
+    "src/editor/render/mp4.js": [],
+    "src/editor/render/offline.js": [
+      "../../core/pose.js",
+      "../../core/state.js",
+      "../../webgl/renderer.js",
+      "../audio.js",
+      "../output.js",
+      "./mp4.js",
+      "./pngworker.js",
+      "./webm.js"
+    ],
+    "src/editor/render/pngworker.js": [],
+    "src/editor/render/webm.js": [],
+    "src/editor/zip.js": [],
+    "src/mcp/edits.js": [
+      "../core/animation.js",
+      "../core/binary.js",
+      "../core/curve.js",
+      "../core/interop.js",
+      "../core/math.js",
+      "../core/model.js",
+      "../editor/zip.js",
+      "./protocol.js",
+      "./tools.js",
+      "node:fs/promises",
+      "node:path"
+    ],
+    "src/mcp/film.js": [
+      "../core/keying.js",
+      "../core/model.js",
+      "../core/poses.js",
+      "../editor/audio.js",
+      "../editor/output.js",
+      "./edits.js",
+      "./protocol.js",
+      "./tools.js",
+      "node:fs/promises",
+      "node:path"
+    ],
+    "src/mcp/png.js": [
+      "../editor/zip.js",
+      "node:zlib"
+    ],
+    "src/mcp/protocol.js": [],
+    "src/mcp/tools.js": [
+      "../core/atlas.js",
+      "../core/binary.js",
+      "../core/constraintdata.js",
+      "../core/interop.js",
+      "../core/model.js",
+      "../core/pose.js",
+      "../editor/io.js",
+      "../editor/zip.js",
+      "./film.js",
+      "./protocol.js",
+      "node:fs/promises",
+      "node:path"
+    ],
+    "src/webgl/renderer.js": [
+      "../core/atlas.js",
+      "../core/clipping.js"
+    ]
+  },
+  "files": [
+    {
+      "path": "LICENSE-APACHE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "LICENSE-MIT",
+      "bytes": 1073,
+      "sha256": "2c3f5813600926e1aa318a3b90f7efdbbcd6f45f9092647c86c1f367ab034bc6"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 996,
+      "sha256": "7c1202fd2fc19b4226a40c89abbf3406ed45071eba099ac54698870b773c71ce"
+    },
+    {
+      "path": "src/core/animation.js",
+      "bytes": 6632,
+      "sha256": "5833a82edbcbdcabdc894d700b9cf705ca1ec3219c0e12ddb00ce6a1361d2e9c"
+    },
+    {
+      "path": "src/core/atlas.js",
+      "bytes": 5876,
+      "sha256": "f2dc335040bccf7e643aee6d6eeec483c194be066ba100b8a19d1964915d5989"
+    },
+    {
+      "path": "src/core/binary.js",
+      "bytes": 67975,
+      "sha256": "f72502207f2dcb9210f36d235f111ed7fe1188b18c3877529e876f4fa2e0fdbb"
+    },
+    {
+      "path": "src/core/clipping.js",
+      "bytes": 4302,
+      "sha256": "a5f316b4f430729eb724ac888efa32b95140d4f201dd5af773552611055f560a"
+    },
+    {
+      "path": "src/core/constraintdata.js",
+      "bytes": 7184,
+      "sha256": "5911595f2f2e4393a970bc71706bfec882b0fa7dde13de2fd2424dc30aa69087"
+    },
+    {
+      "path": "src/core/constraints.js",
+      "bytes": 28488,
+      "sha256": "f640a70c1d234f9af1e65f58a24808f17c3a7316bf72e11e4e77f122461a4127"
+    },
+    {
+      "path": "src/core/curve.js",
+      "bytes": 3468,
+      "sha256": "031654025e87b8368014192b37f9d3b64f5907401fb3052634fc417a8aeb31d4"
+    },
+    {
+      "path": "src/core/index.js",
+      "bytes": 1338,
+      "sha256": "9a49768ada35c7dd75a4479592b783605f0dda68aececc53be9276bc8198c714"
+    },
+    {
+      "path": "src/core/interop.js",
+      "bytes": 40576,
+      "sha256": "ab5e6058065d174c2648e54b8549bc501d15d935d4a68f8fffabdd2721c78900"
+    },
+    {
+      "path": "src/core/keying.js",
+      "bytes": 2167,
+      "sha256": "798d89763b21ba863619e7e2dfb0ceee3bcbdbd410bce7ac51644656c510a3b3"
+    },
+    {
+      "path": "src/core/math.js",
+      "bytes": 5385,
+      "sha256": "53c55e79d8cae3379e6e344f10c21b1420fab1584c020b94d680f05f013b04d3"
+    },
+    {
+      "path": "src/core/model.js",
+      "bytes": 31200,
+      "sha256": "6a2081ff4993aa9047f355e2039fc48e769c23aa777a64af4c26c95cc3c4b256"
+    },
+    {
+      "path": "src/core/pose.js",
+      "bytes": 24919,
+      "sha256": "5ffe5b87f90b9d8c6d7e34942db380a02927dfd2835514bf81cd3d35ddc1cc94"
+    },
+    {
+      "path": "src/core/poses.js",
+      "bytes": 5019,
+      "sha256": "c421a099c0ebd9883b9537e2b70ddf568df1d288afaa8164523bdc491fdbb6f6"
+    },
+    {
+      "path": "src/core/sequence.js",
+      "bytes": 1943,
+      "sha256": "74c93f77424506df2c6a174d7a034add6618213e697545faaee48a280c48112a"
+    },
+    {
+      "path": "src/core/state.js",
+      "bytes": 9206,
+      "sha256": "e18e4533b7eeaf5e9da242f146abd0c934ef4d56bca25679bb462c589a9b38d1"
+    },
+    {
+      "path": "src/editor/audio.js",
+      "bytes": 8818,
+      "sha256": "1f59981c3b66350515b99e40491b1ca3573e8085a2691165fa041b38ebec6a0f"
+    },
+    {
+      "path": "src/editor/io.js",
+      "bytes": 15971,
+      "sha256": "10333f954111c4c734f9487e9ce7636ce3553fd1e78eafb6e40d420f5c0f8568"
+    },
+    {
+      "path": "src/editor/output.js",
+      "bytes": 3099,
+      "sha256": "70a3c44b600e62cfbd9d836d7f3f2ffe93776bf54135862d2f079c9c021aab50"
+    },
+    {
+      "path": "src/editor/pack.js",
+      "bytes": 1453,
+      "sha256": "ab298dc585f4cfb454da1ab084ad5509a7afbf80f3991e1c6494b5b719b26e47"
+    },
+    {
+      "path": "src/editor/render/mp4.js",
+      "bytes": 7901,
+      "sha256": "90cc365199a0d1a8f88b6095a8b020a1de36f1be5c83ba78250cf577c236d332"
+    },
+    {
+      "path": "src/editor/render/offline.js",
+      "bytes": 18050,
+      "sha256": "1b1bfeec50e5593a01b86299b39fbdcc1deabfb0a31d06584c0a5e12b708cd8d"
+    },
+    {
+      "path": "src/editor/render/pngworker.js",
+      "bytes": 1635,
+      "sha256": "f2275a0074ecab792736d5d77a0f010c5f907bea8a1fbd89854e8ce563d96564"
+    },
+    {
+      "path": "src/editor/render/webm.js",
+      "bytes": 4971,
+      "sha256": "dbd1f178d6a2b5065d14c9128c7a968e7e7d6eb57270a1089cb56c50f4886a23"
+    },
+    {
+      "path": "src/editor/zip.js",
+      "bytes": 4624,
+      "sha256": "05579b3c72c25bba5b92504bebc0cb1388808741ec438f3305c0f28727856161"
+    },
+    {
+      "path": "src/mcp/edits.js",
+      "bytes": 16784,
+      "sha256": "4b860ff7041d7cab1fa47c42d1b14d8f73c106af85a5c315044c0e060559757b"
+    },
+    {
+      "path": "src/mcp/film.js",
+      "bytes": 24806,
+      "sha256": "033d0da713e50d5469c144428174dd280d9c44b28236db5a9d49ada8f9cd0ecd"
+    },
+    {
+      "path": "src/mcp/png.js",
+      "bytes": 4718,
+      "sha256": "4cb90a322399d806d61ef8337f3b613605739532f33c17ecdfb6f7df736721ad"
+    },
+    {
+      "path": "src/mcp/protocol.js",
+      "bytes": 7229,
+      "sha256": "af8ed24a85a1a722cbea6d5798a2fc44f6f7c49cc6851bc2259f553a0e75e752"
+    },
+    {
+      "path": "src/mcp/tools.js",
+      "bytes": 23224,
+      "sha256": "1fda6c186d952012637652f1eaa762d11158fcb1c8e28878c231c1c4e7bab35e"
+    },
+    {
+      "path": "src/webgl/renderer.js",
+      "bytes": 14955,
+      "sha256": "da55fe0e6673bab3184c5ee609c5cc103f500cbb55a643e94835a3a7e552561a"
+    }
+  ]
+}

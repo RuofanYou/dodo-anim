@@ -1,0 +1,83 @@
+{
+  "output": "exports/deathwing-native-fire.mp4",
+  "outputSha256": "2b7f9f3f4037124003698b53ce64c7c096f47de699290f5b03f0593ca6c87943",
+  "poster": "evidence/mp4-poster.png",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 6,
+  "frames": 360,
+  "firstSample": 0,
+  "lastSample": 5.983333333333333,
+  "animation": "breathe_fire",
+  "runtime": "official spine-ts 3.8",
+  "renderer": "rig-c rasterisePiece with source-over normal and source-alpha additive over opaque background",
+  "background": [
+    245,
+    242,
+    233,
+    255
+  ],
+  "stage": {
+    "x": -940,
+    "y": -130,
+    "width": 3120,
+    "height": 1310
+  },
+  "viewport": {
+    "minX": -1075.6521739130433,
+    "maxX": 2315.652173913043,
+    "minY": -428.8043478260869,
+    "maxY": 1478.804347826087,
+    "width": 1920,
+    "height": 1080,
+    "scale": 0.5661538461538462
+  },
+  "margin": "fit stage inside central 92% of frame dimensions",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "medium",
+    "crf": 18,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "audio": false
+  },
+  "inputs": [
+    {
+      "path": "build/deathwing-native-fire-source.json",
+      "sha256": "f7f187f0a574273f38fc14fe96c76606b300767d317ae780ff16db9f36a7f898"
+    },
+    {
+      "path": "exports/deathwing-native-fire.atlas",
+      "sha256": "84620efe9f851f86e8269885074387657cc330c470e4736f130d6bf8feb11173"
+    },
+    {
+      "path": "source/spine-webgl-3.8.js",
+      "sha256": "4b108bad314c152bf0ff7a7f56fce5c98073f05a2bfa53e880d6c24b6f7c3aa5"
+    },
+    {
+      "path": "source/rig_spec.json",
+      "sha256": "d516df6bb657f9342a48c10981c961898b0bfac79cdb394610c30a2f9ff24218"
+    },
+    {
+      "path": "exports/deathwing-native-fire.png",
+      "sha256": "3da883a212a7a6a5a27d5c889aceebc9e750092a1089fe077c13cfe4980924c8"
+    }
+  ],
+  "elapsedSeconds": 29.721,
+  "fileBytes": 2385687,
+  "validation": {
+    "tool": "ffmpeg",
+    "command": "ffmpeg -hide_banner -i exports/deathwing-native-fire.mp4 -f null -",
+    "exitCode": 0,
+    "decodedFrames": 360,
+    "containerDurationSeconds": 6,
+    "codec": "h264 (High)",
+    "pixelFormat": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "audioStreams": 0,
+    "posterVisuallyReviewed": true
+  }
+}

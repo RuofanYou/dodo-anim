@@ -1,0 +1,4 @@
+interface:
+  display_name: "动动 Dodo"
+  short_description: "判断运动关系，保留原画制作可编辑骨骼、关键帧与有限特效，并验证实际播放"
+  default_prompt: "使用 $dodo-anim 为当前素材制定运动计划，优先复用合适的成熟工程，完成可编辑动画、网页预览与播放验收。"

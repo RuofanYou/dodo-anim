@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "scope": "Fixed Rigby2D parsing, roundtrip and sampled finite checks; no aesthetic, official Spine runtime, C++ or target-device certification",
+  "runtimeCommit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415",
+  "checks": [
+    {
+      "file": "exports/deathwing-native-fire.json",
+      "format": "json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    },
+    {
+      "file": "exports/deathwing-native-fire.rigby",
+      "format": "rigby",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    },
+    {
+      "file": "exports/deathwing-native-fire.4.3.json",
+      "format": "json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    },
+    {
+      "file": "exports/deathwing-native-fire.skel",
+      "format": "skel",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    }
+  ],
+  "projectValidation": "passed",
+  "metrics": {
+    "bones": 62,
+    "slots": 42,
+    "animations": [
+      {
+        "name": "native__animation",
+        "duration": 0.1333,
+        "samples": 10
+      },
+      {
+        "name": "native__animation2",
+        "duration": 0.6667,
+        "samples": 55
+      },
+      {
+        "name": "native__effect",
+        "duration": 1.5,
+        "samples": 119
+      },
+      {
+        "name": "native__end",
+        "duration": 0.4,
+        "samples": 33
+      },
+      {
+        "name": "native__ing",
+        "duration": 1,
+        "samples": 81
+      },
+      {
+        "name": "breathe_fire",
+        "duration": 6,
+        "samples": 841
+      }
+    ]
+  },
+  "inputSha256": "f7f187f0a574273f38fc14fe96c76606b300767d317ae780ff16db9f36a7f898"
+}

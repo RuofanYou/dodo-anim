@@ -1,0 +1,20 @@
+{
+  "name": "bean-chest",
+  "sourceImage": "source/master-closed.png",
+  "skeleton": "build/bean-chest-source.json",
+  "parts": "assets/parts",
+  "output": "exports",
+  "buildScript": "scripts/build.mjs",
+  "validationScript": "scripts/verify.mjs",
+  "inputs": [
+    "source/master-open.png",
+    "source/lid-panel.png",
+    "source/reward-seed.png",
+    "source/rig_spec.json",
+    "source/actions.json",
+    "scripts/split_art.py",
+    "scripts/build_rig.mjs",
+    "scripts/volumetric_lid.mjs",
+    "scripts/verify.mjs"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "subject": "绿豆巫师骑扫帚",
+  "approvedMaster": true,
+  "approvalBasis": "用户在本次对话中认可形象，并批准按该形象制作骑行、蓄力、施法动作。",
+  "art": {
+    "type": "AI-generated original character design",
+    "master": "approved.png",
+    "generationTool": "Codex image_gen",
+    "prompt": "concept-prompt.txt",
+    "staticWorkflowReference": "agent-sprite-forge",
+    "forgeCommit": "5324342fdfab72430f4e9604f3fe427009f8596d",
+    "referenceImagesUsed": []
+  },
+  "separation": {
+    "method": "Approved visible pixels selected by project-specific masks; hidden surfaces locally inpainted, then extracted.",
+    "hiddenSurfaceSources": [
+      "belly-underlay-inpaint.png",
+      "broom-underlay-inpaint.png",
+      "neck-underlay-inpaint.png",
+      "cape-underlap-inpaint.png"
+    ],
+    "sourceImageModified": false,
+    "visibleFinalArtworkMayIncludeLocalRepairs": true
+  },
+  "rig": {
+    "type": "Authored for this character and requested actions",
+    "reusedThirdPartyRig": false,
+    "source": "rig_spec.json"
+  },
+  "motion": {
+    "type": "Authored keyframes and release logic; no third-party animation reused",
+    "source": "actions.json"
+  },
+  "runtime": {
+    "name": "Rigby2D",
+    "upstream": "https://github.com/jaisurya-dev-art/rigby2d",
+    "commit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415",
+    "license": "MIT OR Apache-2.0"
+  },
+  "reproduction": "Deterministic rebuild starts from the supplied approved PNGs. Generative prompts document intent; rerunning image generation is not claimed to reproduce exact pixels.",
+  "sourceSha256": {
+    "approved.png": "06e97244916048173913bcebe8136611d5e509fd63f74b458807afed00edb312",
+    "belly-underlay-inpaint.png": "947008ff062016e63e6e7c8b66f8e9ecdf203049f2034cea6258fdcd7c9c1b7e",
+    "broom-underlay-inpaint.png": "81c65b7a8e933ed3bb8a65daa29450e4ff52e8a75bdc3eec6f4284fe8e1928cb",
+    "cape-underlap-inpaint.png": "6babff2c2d6bfaab4701fffc47ff8e8bf056281fa45673b6695343ba4b07d40b",
+    "neck-underlay-inpaint.png": "ec9ffd5d7c5d466bfcc270bd075f9204b736bae911012f64bf0196dd98be299b"
+  },
+  "referenceSha256": {
+    "bean-wizard-cast-1080p.mp4": "a16058ff92b30e257140e3e3604b66425c44137c66974d73c12e964429e4240f",
+    "bean-wizard.rigby": "f0f8bc195331939f254aa5c81b71dda7e2bf5059fe53964e121051ebad9820cd"
+  }
+}

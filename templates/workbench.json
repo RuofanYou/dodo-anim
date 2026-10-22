@@ -1,0 +1,7 @@
+{
+  "name": "my-animation",
+  "sourceImage": "art/master.png",
+  "skeleton": "source/skeleton.json",
+  "parts": "parts",
+  "output": "exports"
+}

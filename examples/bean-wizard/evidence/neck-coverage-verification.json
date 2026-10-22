@@ -1,0 +1,5042 @@
+{
+  "schema": "bean-wizard-neck-coverage/1",
+  "status": "passed",
+  "method": "Rigby Pose mesh triangles; deformed canonical source probes; inverse triangle UV lookup; bilinear PNG alpha; five independent surfaces composed source-over",
+  "surfaces": [
+    "head",
+    "cape_collar",
+    "body",
+    "neck_bridge",
+    "cape_tail"
+  ],
+  "canonical_mapping_surface": "neck_bridge geometry, regardless of whether its PNG alpha is opaque",
+  "coverage_region": {
+    "xMin": 590,
+    "xMax": 865,
+    "yMin": 560,
+    "yMax": 690
+  },
+  "source_probe_pixel_step": 2,
+  "source_probe_phases": [
+    [
+      0.5,
+      0.5
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "source_probe_filter": "Approved-cutout alpha=255, source pixel belongs to the five surfaces; 1px inset only along their external boundary. All boundaries between these five surfaces remain included.",
+  "excluded_other_surface_pixels": [
+    {
+      "sourcePixel": [
+        860,
+        560
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        862,
+        560
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        864,
+        560
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        858,
+        562
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        860,
+        562
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        862,
+        562
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        864,
+        562
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "wand_arm"
+      ]
+    },
+    {
+      "sourcePixel": [
+        858,
+        564
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        860,
+        564
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        862,
+        564
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        864,
+        564
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        590,
+        566
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        592,
+        566
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        856,
+        566
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        858,
+        566
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        860,
+        566
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        862,
+        566
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        590,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        592,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        594,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        596,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        598,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        600,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        602,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        604,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        606,
+        568
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        590,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        592,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        594,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        596,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        598,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        600,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        602,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        604,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        606,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        608,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        610,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        612,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        614,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        616,
+        570
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        590,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        592,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        594,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        596,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        598,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        600,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        602,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        604,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        606,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        608,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        610,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        612,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        614,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        616,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        618,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        620,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        622,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        624,
+        572
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        590,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        592,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        594,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        596,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        598,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        600,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        602,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        604,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        606,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        608,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        610,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        612,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        614,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        616,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        618,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        620,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        622,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        624,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        626,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        628,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        630,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        632,
+        574
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        592,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        594,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        596,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        598,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        600,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        602,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        604,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        606,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        608,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        610,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        612,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        614,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        616,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        618,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        620,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        622,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        624,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        626,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        628,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        630,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat",
+        "cape_underlap"
+      ]
+    },
+    {
+      "sourcePixel": [
+        632,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        634,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        636,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        638,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    },
+    {
+      "sourcePixel": [
+        640,
+        576
+      ],
+      "reason": "This source pixel belongs to other artwork, outside the five connection surfaces",
+      "otherSurfaces": [
+        "hat"
+      ]
+    }
+  ],
+  "excluded_other_surface_pixel_count": 105,
+  "excluded_external_edge_inset_pixel_count": 23,
+  "excluded_original_transparent_pixel_count": 0,
+  "probe_count_per_frame": 17960,
+  "fps": 60,
+  "minimum_required_alpha": 0.98,
+  "frame_count": 543,
+  "tested_point_count": 9752280,
+  "below_threshold_point_count": 0,
+  "frames_below_threshold": 0,
+  "minimum_alpha": 1,
+  "worst": null,
+  "actions": [
+    {
+      "name": "fly",
+      "duration": 4,
+      "frames": 241,
+      "minimum_alpha": 1,
+      "frames_below_threshold": 0,
+      "below_threshold_points": 0,
+      "worst": null
+    },
+    {
+      "name": "charge",
+      "duration": 2.8,
+      "frames": 169,
+      "minimum_alpha": 1,
+      "frames_below_threshold": 0,
+      "below_threshold_points": 0,
+      "worst": null
+    },
+    {
+      "name": "cast",
+      "duration": 2.2,
+      "frames": 133,
+      "minimum_alpha": 1,
+      "frames_below_threshold": 0,
+      "below_threshold_points": 0,
+      "worst": null
+    }
+  ],
+  "frame_results": [
+    {
+      "action": "fly",
+      "frame": 0,
+      "time": 0,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 1,
+      "time": 0.016666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 2,
+      "time": 0.03333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 3,
+      "time": 0.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 4,
+      "time": 0.06666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 5,
+      "time": 0.08333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 6,
+      "time": 0.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 7,
+      "time": 0.11666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 8,
+      "time": 0.13333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 9,
+      "time": 0.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 10,
+      "time": 0.16666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 11,
+      "time": 0.18333333333333332,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 12,
+      "time": 0.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 13,
+      "time": 0.21666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 14,
+      "time": 0.23333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 15,
+      "time": 0.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 16,
+      "time": 0.26666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 17,
+      "time": 0.2833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 18,
+      "time": 0.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 19,
+      "time": 0.31666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 20,
+      "time": 0.3333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 21,
+      "time": 0.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 22,
+      "time": 0.36666666666666664,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 23,
+      "time": 0.38333333333333336,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 24,
+      "time": 0.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 25,
+      "time": 0.4166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 26,
+      "time": 0.43333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 27,
+      "time": 0.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 28,
+      "time": 0.4666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 29,
+      "time": 0.48333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 30,
+      "time": 0.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 31,
+      "time": 0.5166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 32,
+      "time": 0.5333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 33,
+      "time": 0.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 34,
+      "time": 0.5666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 35,
+      "time": 0.5833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 36,
+      "time": 0.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 37,
+      "time": 0.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 38,
+      "time": 0.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 39,
+      "time": 0.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 40,
+      "time": 0.6666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 41,
+      "time": 0.6833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 42,
+      "time": 0.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 43,
+      "time": 0.7166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 44,
+      "time": 0.7333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 45,
+      "time": 0.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 46,
+      "time": 0.7666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 47,
+      "time": 0.7833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 48,
+      "time": 0.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 49,
+      "time": 0.8166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 50,
+      "time": 0.8333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 51,
+      "time": 0.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 52,
+      "time": 0.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 53,
+      "time": 0.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 54,
+      "time": 0.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 55,
+      "time": 0.9166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 56,
+      "time": 0.9333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 57,
+      "time": 0.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 58,
+      "time": 0.9666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 59,
+      "time": 0.9833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 60,
+      "time": 1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 61,
+      "time": 1.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 62,
+      "time": 1.0333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 63,
+      "time": 1.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 64,
+      "time": 1.0666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 65,
+      "time": 1.0833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 66,
+      "time": 1.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 67,
+      "time": 1.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 68,
+      "time": 1.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 69,
+      "time": 1.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 70,
+      "time": 1.1666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 71,
+      "time": 1.1833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 72,
+      "time": 1.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 73,
+      "time": 1.2166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 74,
+      "time": 1.2333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 75,
+      "time": 1.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 76,
+      "time": 1.2666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 77,
+      "time": 1.2833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 78,
+      "time": 1.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 79,
+      "time": 1.3166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 80,
+      "time": 1.3333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 81,
+      "time": 1.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 82,
+      "time": 1.3666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 83,
+      "time": 1.3833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 84,
+      "time": 1.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 85,
+      "time": 1.4166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 86,
+      "time": 1.4333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 87,
+      "time": 1.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 88,
+      "time": 1.4666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 89,
+      "time": 1.4833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 90,
+      "time": 1.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 91,
+      "time": 1.5166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 92,
+      "time": 1.5333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 93,
+      "time": 1.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 94,
+      "time": 1.5666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 95,
+      "time": 1.5833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 96,
+      "time": 1.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 97,
+      "time": 1.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 98,
+      "time": 1.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 99,
+      "time": 1.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 100,
+      "time": 1.6666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 101,
+      "time": 1.6833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 102,
+      "time": 1.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 103,
+      "time": 1.7166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 104,
+      "time": 1.7333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 105,
+      "time": 1.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 106,
+      "time": 1.7666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 107,
+      "time": 1.7833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 108,
+      "time": 1.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 109,
+      "time": 1.8166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 110,
+      "time": 1.8333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 111,
+      "time": 1.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 112,
+      "time": 1.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 113,
+      "time": 1.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 114,
+      "time": 1.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 115,
+      "time": 1.9166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 116,
+      "time": 1.9333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 117,
+      "time": 1.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 118,
+      "time": 1.9666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 119,
+      "time": 1.9833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 120,
+      "time": 2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 121,
+      "time": 2.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 122,
+      "time": 2.033333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 123,
+      "time": 2.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 124,
+      "time": 2.066666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 125,
+      "time": 2.0833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 126,
+      "time": 2.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 127,
+      "time": 2.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 128,
+      "time": 2.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 129,
+      "time": 2.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 130,
+      "time": 2.1666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 131,
+      "time": 2.183333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 132,
+      "time": 2.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 133,
+      "time": 2.216666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 134,
+      "time": 2.2333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 135,
+      "time": 2.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 136,
+      "time": 2.2666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 137,
+      "time": 2.283333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 138,
+      "time": 2.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 139,
+      "time": 2.316666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 140,
+      "time": 2.3333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 141,
+      "time": 2.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 142,
+      "time": 2.3666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 143,
+      "time": 2.3833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 144,
+      "time": 2.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 145,
+      "time": 2.4166666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 146,
+      "time": 2.433333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 147,
+      "time": 2.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 148,
+      "time": 2.466666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 149,
+      "time": 2.4833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 150,
+      "time": 2.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 151,
+      "time": 2.5166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 152,
+      "time": 2.533333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 153,
+      "time": 2.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 154,
+      "time": 2.566666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 155,
+      "time": 2.5833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 156,
+      "time": 2.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 157,
+      "time": 2.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 158,
+      "time": 2.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 159,
+      "time": 2.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 160,
+      "time": 2.6666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 161,
+      "time": 2.683333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 162,
+      "time": 2.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 163,
+      "time": 2.716666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 164,
+      "time": 2.7333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 165,
+      "time": 2.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 166,
+      "time": 2.7666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 167,
+      "time": 2.783333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 168,
+      "time": 2.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 169,
+      "time": 2.816666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 170,
+      "time": 2.8333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 171,
+      "time": 2.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 172,
+      "time": 2.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 173,
+      "time": 2.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 174,
+      "time": 2.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 175,
+      "time": 2.9166666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 176,
+      "time": 2.933333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 177,
+      "time": 2.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 178,
+      "time": 2.966666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 179,
+      "time": 2.9833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 180,
+      "time": 3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 181,
+      "time": 3.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 182,
+      "time": 3.033333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 183,
+      "time": 3.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 184,
+      "time": 3.066666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 185,
+      "time": 3.0833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 186,
+      "time": 3.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 187,
+      "time": 3.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 188,
+      "time": 3.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 189,
+      "time": 3.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 190,
+      "time": 3.1666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 191,
+      "time": 3.183333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 192,
+      "time": 3.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 193,
+      "time": 3.216666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 194,
+      "time": 3.2333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 195,
+      "time": 3.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 196,
+      "time": 3.2666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 197,
+      "time": 3.283333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 198,
+      "time": 3.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 199,
+      "time": 3.316666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 200,
+      "time": 3.3333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 201,
+      "time": 3.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 202,
+      "time": 3.3666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 203,
+      "time": 3.3833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 204,
+      "time": 3.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 205,
+      "time": 3.4166666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 206,
+      "time": 3.433333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 207,
+      "time": 3.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 208,
+      "time": 3.466666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 209,
+      "time": 3.4833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 210,
+      "time": 3.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 211,
+      "time": 3.5166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 212,
+      "time": 3.533333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 213,
+      "time": 3.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 214,
+      "time": 3.566666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 215,
+      "time": 3.5833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 216,
+      "time": 3.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 217,
+      "time": 3.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 218,
+      "time": 3.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 219,
+      "time": 3.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 220,
+      "time": 3.6666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 221,
+      "time": 3.683333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 222,
+      "time": 3.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 223,
+      "time": 3.716666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 224,
+      "time": 3.7333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 225,
+      "time": 3.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 226,
+      "time": 3.7666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 227,
+      "time": 3.783333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 228,
+      "time": 3.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 229,
+      "time": 3.816666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 230,
+      "time": 3.8333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 231,
+      "time": 3.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 232,
+      "time": 3.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 233,
+      "time": 3.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 234,
+      "time": 3.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 235,
+      "time": 3.9166666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 236,
+      "time": 3.933333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 237,
+      "time": 3.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 238,
+      "time": 3.966666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 239,
+      "time": 3.9833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "fly",
+      "frame": 240,
+      "time": 4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 0,
+      "time": 0,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 1,
+      "time": 0.016666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 2,
+      "time": 0.03333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 3,
+      "time": 0.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 4,
+      "time": 0.06666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 5,
+      "time": 0.08333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 6,
+      "time": 0.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 7,
+      "time": 0.11666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 8,
+      "time": 0.13333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 9,
+      "time": 0.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 10,
+      "time": 0.16666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 11,
+      "time": 0.18333333333333332,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 12,
+      "time": 0.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 13,
+      "time": 0.21666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 14,
+      "time": 0.23333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 15,
+      "time": 0.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 16,
+      "time": 0.26666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 17,
+      "time": 0.2833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 18,
+      "time": 0.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 19,
+      "time": 0.31666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 20,
+      "time": 0.3333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 21,
+      "time": 0.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 22,
+      "time": 0.36666666666666664,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 23,
+      "time": 0.38333333333333336,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 24,
+      "time": 0.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 25,
+      "time": 0.4166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 26,
+      "time": 0.43333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 27,
+      "time": 0.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 28,
+      "time": 0.4666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 29,
+      "time": 0.48333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 30,
+      "time": 0.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 31,
+      "time": 0.5166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 32,
+      "time": 0.5333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 33,
+      "time": 0.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 34,
+      "time": 0.5666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 35,
+      "time": 0.5833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 36,
+      "time": 0.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 37,
+      "time": 0.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 38,
+      "time": 0.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 39,
+      "time": 0.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 40,
+      "time": 0.6666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 41,
+      "time": 0.6833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 42,
+      "time": 0.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 43,
+      "time": 0.7166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 44,
+      "time": 0.7333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 45,
+      "time": 0.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 46,
+      "time": 0.7666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 47,
+      "time": 0.7833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 48,
+      "time": 0.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 49,
+      "time": 0.8166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 50,
+      "time": 0.8333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 51,
+      "time": 0.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 52,
+      "time": 0.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 53,
+      "time": 0.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 54,
+      "time": 0.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 55,
+      "time": 0.9166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 56,
+      "time": 0.9333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 57,
+      "time": 0.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 58,
+      "time": 0.9666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 59,
+      "time": 0.9833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 60,
+      "time": 1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 61,
+      "time": 1.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 62,
+      "time": 1.0333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 63,
+      "time": 1.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 64,
+      "time": 1.0666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 65,
+      "time": 1.0833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 66,
+      "time": 1.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 67,
+      "time": 1.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 68,
+      "time": 1.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 69,
+      "time": 1.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 70,
+      "time": 1.1666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 71,
+      "time": 1.1833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 72,
+      "time": 1.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 73,
+      "time": 1.2166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 74,
+      "time": 1.2333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 75,
+      "time": 1.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 76,
+      "time": 1.2666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 77,
+      "time": 1.2833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 78,
+      "time": 1.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 79,
+      "time": 1.3166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 80,
+      "time": 1.3333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 81,
+      "time": 1.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 82,
+      "time": 1.3666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 83,
+      "time": 1.3833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 84,
+      "time": 1.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 85,
+      "time": 1.4166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 86,
+      "time": 1.4333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 87,
+      "time": 1.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 88,
+      "time": 1.4666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 89,
+      "time": 1.4833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 90,
+      "time": 1.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 91,
+      "time": 1.5166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 92,
+      "time": 1.5333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 93,
+      "time": 1.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 94,
+      "time": 1.5666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 95,
+      "time": 1.5833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 96,
+      "time": 1.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 97,
+      "time": 1.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 98,
+      "time": 1.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 99,
+      "time": 1.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 100,
+      "time": 1.6666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 101,
+      "time": 1.6833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 102,
+      "time": 1.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 103,
+      "time": 1.7166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 104,
+      "time": 1.7333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 105,
+      "time": 1.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 106,
+      "time": 1.7666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 107,
+      "time": 1.7833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 108,
+      "time": 1.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 109,
+      "time": 1.8166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 110,
+      "time": 1.8333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 111,
+      "time": 1.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 112,
+      "time": 1.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 113,
+      "time": 1.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 114,
+      "time": 1.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 115,
+      "time": 1.9166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 116,
+      "time": 1.9333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 117,
+      "time": 1.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 118,
+      "time": 1.9666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 119,
+      "time": 1.9833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 120,
+      "time": 2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 121,
+      "time": 2.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 122,
+      "time": 2.033333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 123,
+      "time": 2.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 124,
+      "time": 2.066666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 125,
+      "time": 2.0833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 126,
+      "time": 2.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 127,
+      "time": 2.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 128,
+      "time": 2.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 129,
+      "time": 2.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 130,
+      "time": 2.1666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 131,
+      "time": 2.183333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 132,
+      "time": 2.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 133,
+      "time": 2.216666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 134,
+      "time": 2.2333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 135,
+      "time": 2.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 136,
+      "time": 2.2666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 137,
+      "time": 2.283333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 138,
+      "time": 2.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 139,
+      "time": 2.316666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 140,
+      "time": 2.3333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 141,
+      "time": 2.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 142,
+      "time": 2.3666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 143,
+      "time": 2.3833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 144,
+      "time": 2.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 145,
+      "time": 2.4166666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 146,
+      "time": 2.433333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 147,
+      "time": 2.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 148,
+      "time": 2.466666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 149,
+      "time": 2.4833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 150,
+      "time": 2.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 151,
+      "time": 2.5166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 152,
+      "time": 2.533333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 153,
+      "time": 2.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 154,
+      "time": 2.566666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 155,
+      "time": 2.5833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 156,
+      "time": 2.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 157,
+      "time": 2.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 158,
+      "time": 2.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 159,
+      "time": 2.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 160,
+      "time": 2.6666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 161,
+      "time": 2.683333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 162,
+      "time": 2.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 163,
+      "time": 2.716666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 164,
+      "time": 2.7333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 165,
+      "time": 2.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 166,
+      "time": 2.7666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 167,
+      "time": 2.783333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "charge",
+      "frame": 168,
+      "time": 2.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 0,
+      "time": 0,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 1,
+      "time": 0.016666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 2,
+      "time": 0.03333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 3,
+      "time": 0.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 4,
+      "time": 0.06666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 5,
+      "time": 0.08333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 6,
+      "time": 0.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 7,
+      "time": 0.11666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 8,
+      "time": 0.13333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 9,
+      "time": 0.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 10,
+      "time": 0.16666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 11,
+      "time": 0.18333333333333332,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 12,
+      "time": 0.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 13,
+      "time": 0.21666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 14,
+      "time": 0.23333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 15,
+      "time": 0.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 16,
+      "time": 0.26666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 17,
+      "time": 0.2833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 18,
+      "time": 0.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 19,
+      "time": 0.31666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 20,
+      "time": 0.3333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 21,
+      "time": 0.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 22,
+      "time": 0.36666666666666664,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 23,
+      "time": 0.38333333333333336,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 24,
+      "time": 0.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 25,
+      "time": 0.4166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 26,
+      "time": 0.43333333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 27,
+      "time": 0.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 28,
+      "time": 0.4666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 29,
+      "time": 0.48333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 30,
+      "time": 0.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 31,
+      "time": 0.5166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 32,
+      "time": 0.5333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 33,
+      "time": 0.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 34,
+      "time": 0.5666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 35,
+      "time": 0.5833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 36,
+      "time": 0.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 37,
+      "time": 0.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 38,
+      "time": 0.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 39,
+      "time": 0.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 40,
+      "time": 0.6666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 41,
+      "time": 0.6833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 42,
+      "time": 0.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 43,
+      "time": 0.7166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 44,
+      "time": 0.7333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 45,
+      "time": 0.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 46,
+      "time": 0.7666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 47,
+      "time": 0.7833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 48,
+      "time": 0.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 49,
+      "time": 0.8166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 50,
+      "time": 0.8333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 51,
+      "time": 0.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 52,
+      "time": 0.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 53,
+      "time": 0.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 54,
+      "time": 0.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 55,
+      "time": 0.9166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 56,
+      "time": 0.9333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 57,
+      "time": 0.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 58,
+      "time": 0.9666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 59,
+      "time": 0.9833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 60,
+      "time": 1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 61,
+      "time": 1.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 62,
+      "time": 1.0333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 63,
+      "time": 1.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 64,
+      "time": 1.0666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 65,
+      "time": 1.0833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 66,
+      "time": 1.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 67,
+      "time": 1.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 68,
+      "time": 1.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 69,
+      "time": 1.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 70,
+      "time": 1.1666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 71,
+      "time": 1.1833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 72,
+      "time": 1.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 73,
+      "time": 1.2166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 74,
+      "time": 1.2333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 75,
+      "time": 1.25,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 76,
+      "time": 1.2666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 77,
+      "time": 1.2833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 78,
+      "time": 1.3,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 79,
+      "time": 1.3166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 80,
+      "time": 1.3333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 81,
+      "time": 1.35,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 82,
+      "time": 1.3666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 83,
+      "time": 1.3833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 84,
+      "time": 1.4,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 85,
+      "time": 1.4166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 86,
+      "time": 1.4333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 87,
+      "time": 1.45,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 88,
+      "time": 1.4666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 89,
+      "time": 1.4833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 90,
+      "time": 1.5,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 91,
+      "time": 1.5166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 92,
+      "time": 1.5333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 93,
+      "time": 1.55,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 94,
+      "time": 1.5666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 95,
+      "time": 1.5833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 96,
+      "time": 1.6,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 97,
+      "time": 1.6166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 98,
+      "time": 1.6333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 99,
+      "time": 1.65,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 100,
+      "time": 1.6666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 101,
+      "time": 1.6833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 102,
+      "time": 1.7,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 103,
+      "time": 1.7166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 104,
+      "time": 1.7333333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 105,
+      "time": 1.75,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 106,
+      "time": 1.7666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 107,
+      "time": 1.7833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 108,
+      "time": 1.8,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 109,
+      "time": 1.8166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 110,
+      "time": 1.8333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 111,
+      "time": 1.85,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 112,
+      "time": 1.8666666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 113,
+      "time": 1.8833333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 114,
+      "time": 1.9,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 115,
+      "time": 1.9166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 116,
+      "time": 1.9333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 117,
+      "time": 1.95,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 118,
+      "time": 1.9666666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 119,
+      "time": 1.9833333333333334,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 120,
+      "time": 2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 121,
+      "time": 2.0166666666666666,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 122,
+      "time": 2.033333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 123,
+      "time": 2.05,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 124,
+      "time": 2.066666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 125,
+      "time": 2.0833333333333335,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 126,
+      "time": 2.1,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 127,
+      "time": 2.1166666666666667,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 128,
+      "time": 2.1333333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 129,
+      "time": 2.15,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 130,
+      "time": 2.1666666666666665,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 131,
+      "time": 2.183333333333333,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    },
+    {
+      "action": "cast",
+      "frame": 132,
+      "time": 2.2,
+      "minimum_alpha": 1,
+      "below_threshold_points": 0
+    }
+  ],
+  "failures": [],
+  "scope": "Interior connection-band coverage of exported Rigby meshes and part PNGs at 60 Hz; excludes colour continuity, outer silhouette, atlas filtering, browser rasterization, transition mixing, and native C++ playback.",
+  "inputs": {
+    "source/parts.json": "2e3454fa13671d4f3202df222396eccb79ccdea8f38ff2429d1b587a4d280a47",
+    "source/rig_spec.json": "bf9bf4db0bcebc3f70e9908aac4ea8f0e8cf1b317aa68128e46f437281ad110a",
+    "source/actions.json": "1d3eb263e0be2879a58bef1c9b94ebf58a818e89dda2024ffab81b4c27827a57",
+    "exports/bean-wizard.json": "968f2538477f64a59aa98b7639864e6a3e49cc1ab6b5f9def354e6f411678de3",
+    "exports/images/cape_tail.png": "b6c8db1af93024b3bffe70beb714ccff2c27b1bc75297ea326afb93c5bc48e6c",
+    "assets/parts/cape_tail.png": "b6c8db1af93024b3bffe70beb714ccff2c27b1bc75297ea326afb93c5bc48e6c",
+    "exports/images/body.png": "bfcca89ee186e4178c42edbf25ce0d3b399aebc8e2da60727e16f19b0fe79d8a",
+    "assets/parts/body.png": "bfcca89ee186e4178c42edbf25ce0d3b399aebc8e2da60727e16f19b0fe79d8a",
+    "exports/images/leg_far.png": "91802ed0ab12ea075cf7d65244ce21880a66ab6baec1ab89ca059da837cf21be",
+    "assets/parts/leg_far.png": "91802ed0ab12ea075cf7d65244ce21880a66ab6baec1ab89ca059da837cf21be",
+    "exports/images/broom_shaft.png": "493512592d4de59e5d0533d9e0e4dddb4d506cc148cd7cf7e9cb29930621e6fe",
+    "assets/parts/broom_shaft.png": "493512592d4de59e5d0533d9e0e4dddb4d506cc148cd7cf7e9cb29930621e6fe",
+    "exports/images/broom_brush.png": "d29c93ac07e9a482d201bdb9fb188e7a49a406ea82b3fa5323f07b4a6262ed92",
+    "assets/parts/broom_brush.png": "d29c93ac07e9a482d201bdb9fb188e7a49a406ea82b3fa5323f07b4a6262ed92",
+    "exports/images/leg_near.png": "3d42509f3e92914b7a80e1bd756b72646087bd53f3b892459754f178dbbf69d2",
+    "assets/parts/leg_near.png": "3d42509f3e92914b7a80e1bd756b72646087bd53f3b892459754f178dbbf69d2",
+    "exports/images/head.png": "1df56eb538e5e0846378c0bd10ab899628830781ce548f8eea17569f9071ad97",
+    "assets/parts/head.png": "1df56eb538e5e0846378c0bd10ab899628830781ce548f8eea17569f9071ad97",
+    "exports/images/cape_collar.png": "52ea18eca78f781608ed3ee6a4de8693c251c49ccb5cd37d93e0aadc6c1d298d",
+    "assets/parts/cape_collar.png": "52ea18eca78f781608ed3ee6a4de8693c251c49ccb5cd37d93e0aadc6c1d298d",
+    "exports/images/hat.png": "7fcbc241db0da858cd4e4605119757369c63eeb34023b2d3fc33194a75e536f6",
+    "assets/parts/hat.png": "7fcbc241db0da858cd4e4605119757369c63eeb34023b2d3fc33194a75e536f6",
+    "exports/images/wand_arm.png": "db5dd537bbad224f01b8d44ce9344c9224cfb467576797776d1f97c638bebcf2",
+    "assets/parts/wand_arm.png": "db5dd537bbad224f01b8d44ce9344c9224cfb467576797776d1f97c638bebcf2",
+    "exports/images/wand_hand.png": "734f9af02cc6e001e705dd2c8a69e6135024d6f02ff719fd673e3fb042bcb98a",
+    "assets/parts/wand_hand.png": "734f9af02cc6e001e705dd2c8a69e6135024d6f02ff719fd673e3fb042bcb98a",
+    "exports/images/holding_arm.png": "33df4d23209f0b9cd4706a968393900c63866b5b403004f75668ef4b643c73ef",
+    "assets/parts/holding_arm.png": "33df4d23209f0b9cd4706a968393900c63866b5b403004f75668ef4b643c73ef",
+    "exports/images/spark.png": "2dd7bea1d69b50115455add3808aa3082099562349bc89955e5838910a3442be",
+    "assets/parts/spark.png": "2dd7bea1d69b50115455add3808aa3082099562349bc89955e5838910a3442be",
+    "exports/images/neck_bridge.png": "bd021d245a5a6e0e29ef02ecb783cfa4a146bf2ebe782ac9b9d1fb83020265a4",
+    "assets/parts/neck_bridge.png": "bd021d245a5a6e0e29ef02ecb783cfa4a146bf2ebe782ac9b9d1fb83020265a4",
+    "exports/images/cape_underlap.png": "689fa21a500ec0503c11afd07df87fa2f3e0a43980785c3fcc1aeb0e82a7bc80",
+    "assets/parts/cape_underlap.png": "689fa21a500ec0503c11afd07df87fa2f3e0a43980785c3fcc1aeb0e82a7bc80",
+    "source/approved-cutout.png": "7b5863575a5e495999aefe928a924464b22dc5529f400a351fd53ae75724b785",
+    "scripts/verify_neck_coverage.mjs": "0eb5119d2d55013ff12c75801d1ed6f1fcf408df137399d8d43529680b6d795b",
+    "scripts/neck_coverage_sampling.mjs": "8d50c3095c0aa7ec2947dc95f4c875365e8c9deb3e9774e4e81b1190dc08ab05"
+  },
+  "input_snapshot_unchanged": true
+}

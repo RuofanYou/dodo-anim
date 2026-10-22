@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "scope": "Fixed Rigby2D parsing, roundtrip and sampled finite checks; no aesthetic, official Spine runtime, C++ or target-device certification",
+  "runtimeCommit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415",
+  "checks": [
+    {
+      "file": "exports/bean-chest.json",
+      "format": "json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    },
+    {
+      "file": "exports/bean-chest.rigby",
+      "format": "rigby",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    },
+    {
+      "file": "exports/bean-chest.4.3.json",
+      "format": "json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    },
+    {
+      "file": "exports/bean-chest.skel",
+      "format": "skel",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "structure": "ok",
+        "images": "ok",
+        "jsonRoundTrip": "ok",
+        "binaryExport": "ok"
+      }
+    }
+  ],
+  "projectValidation": "passed",
+  "metrics": {
+    "bones": 100,
+    "slots": 19,
+    "animations": [
+      {
+        "name": "showcase",
+        "duration": 7.2,
+        "samples": 731
+      },
+      {
+        "name": "open",
+        "duration": 3.6,
+        "samples": 362
+      },
+      {
+        "name": "rig_test",
+        "duration": 5.6,
+        "samples": 561
+      }
+    ]
+  },
+  "inputSha256": "bf5f4f4caa6d404b3199f884ee50bb3e63e0fb0e2db602151e9f49afc4451386"
+}

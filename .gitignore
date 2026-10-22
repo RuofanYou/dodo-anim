@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Local verification output and machine dependencies
+validation/readme-cold-start/
+validation/spine38-reader-reproduction/
+validation/release-check/
+*.log
+.env
+.env.*

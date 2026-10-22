@@ -1,0 +1,529 @@
+{
+  "schema": "bean-wizard-original-pixel-rig/1",
+  "sourceImage": "approved.png",
+  "coordinates": "Original image pixels, X right, Y down; every exported bone X axis follows its aim point",
+  "origin": [
+    627,
+    780
+  ],
+  "bones": [
+    {
+      "id": "root",
+      "parent": null,
+      "pivot": [
+        627,
+        780
+      ],
+      "aim": [
+        727,
+        780
+      ]
+    },
+    {
+      "id": "flight_root",
+      "parent": "root",
+      "pivot": [
+        627,
+        780
+      ],
+      "aim": [
+        727,
+        780
+      ]
+    },
+    {
+      "id": "broom_base",
+      "parent": "flight_root",
+      "pivot": [
+        701,
+        836
+      ],
+      "aim": [
+        1123,
+        692
+      ]
+    },
+    {
+      "id": "brush_root",
+      "parent": "broom_base",
+      "pivot": [
+        459,
+        875
+      ],
+      "aim": [
+        288,
+        940
+      ]
+    },
+    {
+      "id": "brush_tip",
+      "parent": "brush_root",
+      "pivot": [
+        288,
+        940
+      ],
+      "aim": [
+        145,
+        986
+      ]
+    },
+    {
+      "id": "pelvis",
+      "parent": "flight_root",
+      "pivot": [
+        708,
+        805
+      ],
+      "aim": [
+        721,
+        701
+      ]
+    },
+    {
+      "id": "torso",
+      "parent": "pelvis",
+      "pivot": [
+        721,
+        701
+      ],
+      "aim": [
+        733,
+        587
+      ]
+    },
+    {
+      "id": "head",
+      "parent": "torso",
+      "pivot": [
+        741,
+        581
+      ],
+      "aim": [
+        723,
+        444
+      ]
+    },
+    {
+      "id": "hat_root",
+      "parent": "head",
+      "pivot": [
+        721,
+        351
+      ],
+      "aim": [
+        430,
+        194
+      ]
+    },
+    {
+      "id": "hat_mid",
+      "parent": "hat_root",
+      "pivot": [
+        430,
+        194
+      ],
+      "aim": [
+        211,
+        260
+      ]
+    },
+    {
+      "id": "hat_tip",
+      "parent": "hat_mid",
+      "pivot": [
+        211,
+        260
+      ],
+      "aim": [
+        143,
+        294
+      ]
+    },
+    {
+      "id": "cape_root",
+      "parent": "torso",
+      "pivot": [
+        784,
+        624
+      ],
+      "aim": [
+        480,
+        642
+      ]
+    },
+    {
+      "id": "cape_mid",
+      "parent": "cape_root",
+      "pivot": [
+        480,
+        642
+      ],
+      "aim": [
+        280,
+        650
+      ]
+    },
+    {
+      "id": "cape_tip",
+      "parent": "cape_mid",
+      "pivot": [
+        280,
+        650
+      ],
+      "aim": [
+        210,
+        630
+      ]
+    },
+    {
+      "id": "holding_upperarm",
+      "parent": "torso",
+      "pivot": [
+        687,
+        724
+      ],
+      "aim": [
+        733,
+        780
+      ]
+    },
+    {
+      "id": "holding_forearm",
+      "parent": "holding_upperarm",
+      "pivot": [
+        733,
+        780
+      ],
+      "aim": [
+        785,
+        802
+      ]
+    },
+    {
+      "id": "holding_hand",
+      "parent": "holding_forearm",
+      "pivot": [
+        785,
+        802
+      ],
+      "aim": [
+        808,
+        811
+      ]
+    },
+    {
+      "id": "wand_shoulder",
+      "parent": "torso",
+      "pivot": [
+        873,
+        564
+      ],
+      "aim": [
+        931,
+        551
+      ]
+    },
+    {
+      "id": "wand_elbow",
+      "parent": "wand_shoulder",
+      "pivot": [
+        931,
+        551
+      ],
+      "aim": [
+        1006,
+        504
+      ]
+    },
+    {
+      "id": "wand_wrist",
+      "parent": "wand_elbow",
+      "pivot": [
+        1006,
+        504
+      ],
+      "aim": [
+        1106,
+        287
+      ]
+    },
+    {
+      "id": "wand",
+      "parent": "wand_wrist",
+      "pivot": [
+        1006,
+        504
+      ],
+      "aim": [
+        1106,
+        287
+      ]
+    },
+    {
+      "id": "spark",
+      "parent": "wand",
+      "pivot": [
+        1128,
+        248
+      ],
+      "aim": [
+        1158,
+        248
+      ]
+    },
+    {
+      "id": "leg_far",
+      "parent": "pelvis",
+      "pivot": [
+        815,
+        825
+      ],
+      "aim": [
+        822,
+        941
+      ]
+    },
+    {
+      "id": "leg_near",
+      "parent": "pelvis",
+      "pivot": [
+        643,
+        829
+      ],
+      "aim": [
+        668,
+        942
+      ]
+    },
+    {
+      "id": "holding_target",
+      "parent": "flight_root",
+      "pivot": [
+        785,
+        802
+      ],
+      "aim": [
+        785,
+        802
+      ],
+      "length": 0
+    },
+    {
+      "id": "spell_bolt",
+      "parent": "flight_root",
+      "pivot": [
+        1128,
+        248
+      ],
+      "aim": [
+        1158,
+        248
+      ]
+    }
+  ],
+  "bindings": {
+    "cape_tail": {
+      "bone": "cape_root",
+      "mesh": {
+        "gridStep": 20,
+        "globalYBreaks": [
+          570,
+          635,
+          700
+        ],
+        "chain": [
+          "cape_root",
+          "cape_mid",
+          "cape_tip",
+          "head",
+          "torso",
+          "pelvis"
+        ],
+        "weightRule": "cape"
+      }
+    },
+    "broom_brush": {
+      "bone": "brush_root",
+      "mesh": {
+        "columns": 12,
+        "rows": 9,
+        "chain": [
+          "brush_root",
+          "brush_tip"
+        ],
+        "weightRule": "brush"
+      }
+    },
+    "broom_shaft": {
+      "bone": "broom_base"
+    },
+    "leg_far": {
+      "bone": "leg_far"
+    },
+    "leg_near": {
+      "bone": "leg_near"
+    },
+    "body": {
+      "bone": "pelvis",
+      "mesh": {
+        "gridStep": 20,
+        "globalYBreaks": [
+          570,
+          635,
+          700
+        ],
+        "chain": [
+          "head",
+          "torso",
+          "pelvis"
+        ],
+        "weightRule": "neck"
+      }
+    },
+    "head": {
+      "bone": "head",
+      "mesh": {
+        "gridStep": 20,
+        "globalYBreaks": [
+          570,
+          635,
+          700
+        ],
+        "chain": [
+          "head",
+          "torso",
+          "pelvis"
+        ],
+        "weightRule": "neck"
+      }
+    },
+    "hat": {
+      "bone": "hat_root",
+      "mesh": {
+        "columns": 14,
+        "rows": 10,
+        "chain": [
+          "hat_root",
+          "hat_mid",
+          "hat_tip"
+        ],
+        "weightRule": "hat"
+      }
+    },
+    "cape_collar": {
+      "bone": "torso",
+      "mesh": {
+        "gridStep": 20,
+        "globalYBreaks": [
+          570,
+          635,
+          700
+        ],
+        "chain": [
+          "head",
+          "torso",
+          "pelvis"
+        ],
+        "weightRule": "neck"
+      }
+    },
+    "holding_arm": {
+      "bone": "holding_upperarm",
+      "mesh": {
+        "columns": 10,
+        "rows": 8,
+        "chain": [
+          "holding_upperarm",
+          "holding_forearm"
+        ],
+        "weightRule": "holding_arm"
+      }
+    },
+    "wand_arm": {
+      "bone": "wand_shoulder",
+      "mesh": {
+        "columns": 10,
+        "rows": 10,
+        "chain": [
+          "wand_shoulder",
+          "wand_elbow"
+        ],
+        "weightRule": "wand_arm"
+      }
+    },
+    "spark": {
+      "bone": "spark"
+    },
+    "wand_hand": {
+      "bone": "wand"
+    },
+    "neck_bridge": {
+      "bone": "torso",
+      "mesh": {
+        "gridStep": 20,
+        "globalYBreaks": [
+          570,
+          635,
+          700
+        ],
+        "chain": [
+          "head",
+          "torso",
+          "pelvis"
+        ],
+        "weightRule": "neck"
+      }
+    },
+    "cape_underlap": {
+      "bone": "torso",
+      "mesh": {
+        "gridStep": 20,
+        "globalYBreaks": [
+          570,
+          635,
+          700
+        ],
+        "chain": [
+          "head",
+          "torso",
+          "pelvis"
+        ],
+        "weightRule": "neck"
+      }
+    }
+  },
+  "ik": [
+    {
+      "name": "hand_on_broom",
+      "target": "holding_target",
+      "bones": [
+        "holding_upperarm",
+        "holding_forearm"
+      ],
+      "mix": 1,
+      "bendPositive": true
+    }
+  ],
+  "neckSurface": {
+    "sharedParts": [
+      "head",
+      "body",
+      "cape_collar",
+      "neck_bridge",
+      "cape_tail",
+      "cape_underlap"
+    ],
+    "worldYBreaks": [
+      570,
+      635,
+      700
+    ],
+    "globalGridStep": 20,
+    "weights": "head until570, head-to-torso570..635, torso-to-pelvis635..700, pelvis after700",
+    "sourceImageUnchanged": true,
+    "capeTransitionX": [
+      350,
+      500
+    ]
+  }
+}

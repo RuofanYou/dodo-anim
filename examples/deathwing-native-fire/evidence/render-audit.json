@@ -1,0 +1,21 @@
+{
+  "runtime": "official spine-ts 3.8",
+  "render": "existing rig-c rasterizer with explicit original normal/additive compositing",
+  "sampleTimes": [
+    1.75,
+    2.6,
+    3.4,
+    4
+  ],
+  "viewport": {
+    "minX": -940,
+    "minY": -130,
+    "maxX": 2180,
+    "maxY": 1180,
+    "scale": 0.4807692307692308,
+    "width": 1500,
+    "height": 630
+  },
+  "source": "build/deathwing-native-fire-source.json",
+  "atlas": "exports/deathwing-native-fire.atlas"
+}

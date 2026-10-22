@@ -1,0 +1,25 @@
+{
+  "sourceBuildManifestSha256": "8915f9eb205f9f7219099dc0f3a9b3b35b5c449ae21847832f70b113957ae9d1",
+  "motion": "showcase",
+  "runtime": "rig-c 2.65.1 / official spine-core 4.3.13 poser",
+  "width": 768,
+  "height": 650,
+  "fps": 30,
+  "frames": 216,
+  "duration": 7.2,
+  "background": [
+    232,
+    232,
+    232,
+    255
+  ],
+  "videoSha256": "866d6810e4e0ec9938b3ed15137fd9b0c595c3c9b0e4eeabcf8addc654829507",
+  "encoding": "FFmpeg 6.0 libx264 CRF18 yuv420p faststart",
+  "decode": "FFmpeg full-stream decode succeeded",
+  "webScreenshots": [
+    "final-closed.png",
+    "final-edge-transition.png",
+    "final-open.png"
+  ],
+  "scope": "Deterministic rendering of the editable skeleton; no generative video. Visual review included all 30fps contact frames and native web key poses. C++/Skia and game integration untested."
+}

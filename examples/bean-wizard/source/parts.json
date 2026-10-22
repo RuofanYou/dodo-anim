@@ -1,0 +1,290 @@
+{
+  "schema": "bean-wizard-parts/1",
+  "canvasWidth": 1254,
+  "canvasHeight": 1254,
+  "source": "source/approved.png",
+  "sourceSha256": "06e97244916048173913bcebe8136611d5e509fd63f74b458807afed00edb312",
+  "art_source": "AI-generated concept approved by user, source pixels extracted by polygon masks",
+  "parts": [
+    {
+      "id": "cape_tail",
+      "file": "assets/parts/cape_tail.png",
+      "x": 194,
+      "y": 559,
+      "width": 732,
+      "height": 249,
+      "pivot": [
+        784,
+        624
+      ],
+      "z": 10,
+      "kind": "cape",
+      "source_pixels": 47661,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 10111,
+      "transparent_edge_rgb_pixels": 7381
+    },
+    {
+      "id": "body",
+      "file": "assets/parts/body.png",
+      "x": 530,
+      "y": 621,
+      "width": 354,
+      "height": 241,
+      "pivot": [
+        708,
+        805
+      ],
+      "z": 30,
+      "kind": "body",
+      "source_pixels": 46364,
+      "inpainted_hidden_pixels": 5193,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 5264
+    },
+    {
+      "id": "leg_far",
+      "file": "assets/parts/leg_far.png",
+      "x": 757,
+      "y": 812,
+      "width": 106,
+      "height": 157,
+      "pivot": [
+        815,
+        825
+      ],
+      "z": 35,
+      "kind": "leg",
+      "source_pixels": 8151,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 655,
+      "transparent_edge_rgb_pixels": 1676
+    },
+    {
+      "id": "broom_shaft",
+      "file": "assets/parts/broom_shaft.png",
+      "x": 537,
+      "y": 658,
+      "width": 647,
+      "height": 241,
+      "pivot": [
+        701,
+        836
+      ],
+      "z": 40,
+      "kind": "broom",
+      "source_pixels": 27351,
+      "inpainted_hidden_pixels": 4454,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 6484
+    },
+    {
+      "id": "broom_brush",
+      "file": "assets/parts/broom_brush.png",
+      "x": 56,
+      "y": 790,
+      "width": 484,
+      "height": 325,
+      "pivot": [
+        459,
+        875
+      ],
+      "z": 41,
+      "kind": "brush",
+      "source_pixels": 105085,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 8278
+    },
+    {
+      "id": "leg_near",
+      "file": "assets/parts/leg_near.png",
+      "x": 597,
+      "y": 796,
+      "width": 125,
+      "height": 194,
+      "pivot": [
+        643,
+        829
+      ],
+      "z": 45,
+      "kind": "leg",
+      "source_pixels": 10692,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 2532,
+      "transparent_edge_rgb_pixels": 2049
+    },
+    {
+      "id": "head",
+      "file": "assets/parts/head.png",
+      "x": 535,
+      "y": 309,
+      "width": 357,
+      "height": 296,
+      "pivot": [
+        741,
+        581
+      ],
+      "z": 50,
+      "kind": "head",
+      "source_pixels": 69299,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 4478
+    },
+    {
+      "id": "cape_collar",
+      "file": "assets/parts/cape_collar.png",
+      "x": 510,
+      "y": 564,
+      "width": 389,
+      "height": 125,
+      "pivot": [
+        785,
+        621
+      ],
+      "z": 55,
+      "kind": "collar",
+      "source_pixels": 20799,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 3514
+    },
+    {
+      "id": "hat",
+      "file": "assets/parts/hat.png",
+      "x": 136,
+      "y": 81,
+      "width": 855,
+      "height": 507,
+      "pivot": [
+        721,
+        351
+      ],
+      "z": 60,
+      "kind": "hat",
+      "source_pixels": 167232,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 14858
+    },
+    {
+      "id": "wand_arm",
+      "file": "assets/parts/wand_arm.png",
+      "x": 852,
+      "y": 462,
+      "width": 152,
+      "height": 145,
+      "pivot": [
+        873,
+        564
+      ],
+      "z": 25,
+      "kind": "arm",
+      "source_pixels": 4716,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 2181,
+      "transparent_edge_rgb_pixels": 1699
+    },
+    {
+      "id": "wand_hand",
+      "file": "assets/parts/wand_hand.png",
+      "x": 969,
+      "y": 278,
+      "width": 156,
+      "height": 264,
+      "pivot": [
+        1006,
+        504
+      ],
+      "z": 70,
+      "kind": "wand",
+      "source_pixels": 6132,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 2383
+    },
+    {
+      "id": "holding_arm",
+      "file": "assets/parts/holding_arm.png",
+      "x": 675,
+      "y": 705,
+      "width": 148,
+      "height": 121,
+      "pivot": [
+        687,
+        724
+      ],
+      "z": 75,
+      "kind": "holding_arm",
+      "source_pixels": 7107,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 1466
+    },
+    {
+      "id": "spark",
+      "file": "assets/parts/spark.png",
+      "x": 1054,
+      "y": 185,
+      "width": 130,
+      "height": 140,
+      "pivot": [
+        1128,
+        248
+      ],
+      "z": 80,
+      "kind": "spark",
+      "source_pixels": 3376,
+      "inpainted_hidden_pixels": 0,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 2808
+    },
+    {
+      "id": "neck_bridge",
+      "file": "assets/parts/neck_bridge.png",
+      "x": 575,
+      "y": 548,
+      "width": 292,
+      "height": 149,
+      "pivot": [
+        741,
+        610
+      ],
+      "z": 29,
+      "kind": "neck",
+      "source_pixels": 0,
+      "inpainted_hidden_pixels": 37662,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 1844
+    },
+    {
+      "id": "cape_underlap",
+      "file": "assets/parts/cape_underlap.png",
+      "x": 500,
+      "y": 534,
+      "width": 211,
+      "height": 127,
+      "pivot": [
+        600,
+        594
+      ],
+      "z": 9,
+      "kind": "cape_underlap",
+      "source_pixels": 0,
+      "inpainted_hidden_pixels": 15906,
+      "joint_overlap_pixels": 0,
+      "transparent_edge_rgb_pixels": 1819
+    }
+  ],
+  "matte": {
+    "method": "border-connected warm paper flood fill",
+    "removed_pixels": 1048551
+  },
+  "reconstruction": {
+    "source_painted_pixels_exact": true,
+    "parts": 15,
+    "shoulder_notch_repair_added_pixels": 69,
+    "residual_painted_pixels_assigned_to_nearest_region": 4415
+  }
+}

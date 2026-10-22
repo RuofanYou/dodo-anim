@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "name": "agent-sprite-forge",
+  "upstream": {
+    "repository": "https://github.com/0x0funky/agent-sprite-forge",
+    "commit": "5324342fdfab72430f4e9604f3fe427009f8596d",
+    "license_file": "LICENSE"
+  },
+  "scope": "static reference for master still only",
+  "selection": {
+    "source_extraction": "git show 5324342fdfab72430f4e9604f3fe427009f8596d:<path>",
+    "source_changes": false,
+    "upstream_files": 4,
+    "complete_skill_installation": false
+  },
+  "execution": {
+    "scripts_included": false,
+    "generators_included": false,
+    "media_included": false,
+    "upstream_code_executed": false,
+    "generation_performed": false,
+    "video_workflows_supported": false
+  },
+  "usage_note": "Read only the static character design, master-still and prompt-related passages. The unmodified upstream Markdown contains command, script and video references; those references do not mean this vendor package includes or supports those capabilities. No full skill is installed by this reference subset.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "d63ddc781bf0d15753fe0ba22c7cd5828dabb7776465ea4d4939558d4909b0fa"
+    },
+    {
+      "path": "skills/generate2dsprite/UPSTREAM_SKILL.md",
+      "bytes": 14298,
+      "sha256": "6449ff93a8ebd554ae9ed732f148a03ea6ebda62e3357db3d8479b52eadf6209",
+      "upstreamPath": "skills/generate2dsprite/SKILL.md"
+    },
+    {
+      "path": "skills/generate2dsprite/references/master-still.md",
+      "bytes": 15270,
+      "sha256": "edae0a708f93a852eda8cf71ae41bf76c409cbc827a73d7634f016614289a6fd"
+    },
+    {
+      "path": "skills/generate2dsprite/references/prompt-rules.md",
+      "bytes": 10015,
+      "sha256": "cba6b61c9ee2e2e7c7dfe480a66baeafe9dcc451b575e4e0c70af0755a84fc15"
+    }
+  ]
+}

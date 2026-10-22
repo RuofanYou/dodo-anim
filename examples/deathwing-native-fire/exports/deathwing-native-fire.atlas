@@ -1,0 +1,68 @@
+deathwing-native-fire.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 3,3
+  size: 1467,964
+  orig: 1467,964
+  offset: 0,0
+  index: -1
+far_wing
+  rotate: false
+  xy: 907,973
+  size: 302,234
+  orig: 302,234
+  offset: 0,0
+  index: -1
+jaw
+  rotate: false
+  xy: 1215,973
+  size: 204,203
+  orig: 204,203
+  offset: 0,0
+  index: -1
+native/fire_1
+  rotate: false
+  xy: 1488,973
+  size: 60,70
+  orig: 60,70
+  offset: 0,0
+  index: -1
+native/fire_2
+  rotate: false
+  xy: 1554,973
+  size: 75,69
+  orig: 75,69
+  offset: 0,0
+  index: -1
+native/fire_3
+  rotate: false
+  xy: 1425,973
+  size: 57,97
+  orig: 57,97
+  offset: 0,0
+  index: -1
+native/fire_4
+  rotate: false
+  xy: 1635,973
+  size: 18,43
+  orig: 18,43
+  offset: 0,0
+  index: -1
+native/gole
+  rotate: false
+  xy: 1659,973
+  size: 32,32
+  orig: 32,32
+  offset: 0,0
+  index: -1
+near_wing
+  rotate: false
+  xy: 3,973
+  size: 898,585
+  orig: 898,585
+  offset: 0,0
+  index: -1

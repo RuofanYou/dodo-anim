@@ -1,0 +1,41 @@
+{
+  "name": "deathwing-native-fire",
+  "runtimeCommit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415",
+  "inputs": {
+    "workbench.json": "e001841cea304ff0164ea7662ab171e66b3d043ce2e4e357403392e6122d606d",
+    "build/deathwing-native-fire-source.json": "f7f187f0a574273f38fc14fe96c76606b300767d317ae780ff16db9f36a7f898",
+    "assets/parts/body.png": "0ab454404c4d3e981fece511f6a58066401c56529d2bdea9e574950da4f6d854",
+    "assets/parts/far_wing.png": "1613b5ace82cb078655f8055bb7344a1e5ec8000ccc673cfd99b113a40ae265b",
+    "assets/parts/jaw.png": "89f432406166af0e693c966452c26c9e805b8b6e829a2d19cbf4797ef255d65d",
+    "assets/parts/native/fire_1.png": "c8777e08bf19ae5928355f91017c9a21537b4c7cdd8245c7f4db79bf3e807891",
+    "assets/parts/native/fire_2.png": "bf7a555371a3ac33ac7324e3cfb3df30db24c9987b75f593b4e0f2b21d8e252e",
+    "assets/parts/native/fire_3.png": "c88129f68a3ac18c0d735b8bf5209c80de1fce8291a3ccfe80ff574cac670637",
+    "assets/parts/native/fire_4.png": "6f224c397cb062bc3871687a006498878cb89d633e02eaae5c2fbc79b453e2bb",
+    "assets/parts/native/gole.png": "69ed7a8821419805d92c1816e887eac6a9a318636697efeaf27c99f28558b17d",
+    "assets/parts/near_wing.png": "dd64a517c99ef4e7c38de5b5de948c4b8831b5adb62485ee4958e2f539044de5",
+    "scripts/build.mjs": "66866efb17886ec44517e2537c0b5035d6de848f538a046781c12d2b3130a537",
+    "source/body.json": "d35efbef925590033b16359bc2c81fe7d6657594ce8cf400808a6da1566df103",
+    "source/native-fire.json": "f1d4f649fc634b2219588a32942b602240120b3f98c0de48a08736a9909392e2",
+    "source/rig_spec.json": "d516df6bb657f9342a48c10981c961898b0bfac79cdb394610c30a2f9ff24218",
+    "source/provenance.json": "6e6eaeb8951841358280e69b051175c36af8c282c3b8cbd9effa470c6c2e007d",
+    "source/spine-webgl-3.8.js": "4b108bad314c152bf0ff7a7f56fce5c98073f05a2bfa53e880d6c24b6f7c3aa5",
+    "scripts/verify.mjs": "94d3064980538b37ffe2da3eb0494e9e9800b4a0afe6dcba3f718c82c885fd09"
+  },
+  "outputs": {
+    "deathwing-native-fire.json": "6382998e439becf1eb91ad447535193b2883a535b837bd5eb7398a345c03eef3",
+    "deathwing-native-fire.rigby": "be9a5f8b91da9421d96ef6edfe2d2c49b74baa014fa73682f20c303690a149f5",
+    "deathwing-native-fire.atlas": "84620efe9f851f86e8269885074387657cc330c470e4736f130d6bf8feb11173",
+    "deathwing-native-fire.png": "3da883a212a7a6a5a27d5c889aceebc9e750092a1089fe077c13cfe4980924c8",
+    "images/body.png": "0ab454404c4d3e981fece511f6a58066401c56529d2bdea9e574950da4f6d854",
+    "images/far_wing.png": "1613b5ace82cb078655f8055bb7344a1e5ec8000ccc673cfd99b113a40ae265b",
+    "images/jaw.png": "89f432406166af0e693c966452c26c9e805b8b6e829a2d19cbf4797ef255d65d",
+    "images/native/fire_1.png": "c8777e08bf19ae5928355f91017c9a21537b4c7cdd8245c7f4db79bf3e807891",
+    "images/native/fire_2.png": "bf7a555371a3ac33ac7324e3cfb3df30db24c9987b75f593b4e0f2b21d8e252e",
+    "images/native/fire_3.png": "c88129f68a3ac18c0d735b8bf5209c80de1fce8291a3ccfe80ff574cac670637",
+    "images/native/fire_4.png": "6f224c397cb062bc3871687a006498878cb89d633e02eaae5c2fbc79b453e2bb",
+    "images/native/gole.png": "69ed7a8821419805d92c1816e887eac6a9a318636697efeaf27c99f28558b17d",
+    "images/near_wing.png": "dd64a517c99ef4e7c38de5b5de948c4b8831b5adb62485ee4958e2f539044de5",
+    "deathwing-native-fire.4.3.json": "a1bb5cd0a5ae5fee0a12714c65d16ff97d90436148457809de91efe032d9da5d",
+    "deathwing-native-fire.skel": "5495337241bc07bafe370542a1f773c7b3fe614ebe828c89f5e1cbd6651b2361"
+  }
+}

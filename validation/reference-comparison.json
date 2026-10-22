@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "scope": "60 Hz geometry, topology, UV, colour and embedded PNG comparison against the accepted wizard snapshot; does not validate an unfamiliar asset or another runtime.",
+  "pngFiles": 15,
+  "pngSha256": {
+    "images/body.png": "bfcca89ee186e4178c42edbf25ce0d3b399aebc8e2da60727e16f19b0fe79d8a",
+    "images/broom_brush.png": "d29c93ac07e9a482d201bdb9fb188e7a49a406ea82b3fa5323f07b4a6262ed92",
+    "images/broom_shaft.png": "493512592d4de59e5d0533d9e0e4dddb4d506cc148cd7cf7e9cb29930621e6fe",
+    "images/cape_collar.png": "52ea18eca78f781608ed3ee6a4de8693c251c49ccb5cd37d93e0aadc6c1d298d",
+    "images/cape_tail.png": "b6c8db1af93024b3bffe70beb714ccff2c27b1bc75297ea326afb93c5bc48e6c",
+    "images/cape_underlap.png": "689fa21a500ec0503c11afd07df87fa2f3e0a43980785c3fcc1aeb0e82a7bc80",
+    "images/hat.png": "7fcbc241db0da858cd4e4605119757369c63eeb34023b2d3fc33194a75e536f6",
+    "images/head.png": "1df56eb538e5e0846378c0bd10ab899628830781ce548f8eea17569f9071ad97",
+    "images/holding_arm.png": "33df4d23209f0b9cd4706a968393900c63866b5b403004f75668ef4b643c73ef",
+    "images/leg_far.png": "91802ed0ab12ea075cf7d65244ce21880a66ab6baec1ab89ca059da837cf21be",
+    "images/leg_near.png": "3d42509f3e92914b7a80e1bd756b72646087bd53f3b892459754f178dbbf69d2",
+    "images/neck_bridge.png": "bd021d245a5a6e0e29ef02ecb783cfa4a146bf2ebe782ac9b9d1fb83020265a4",
+    "images/spark.png": "2dd7bea1d69b50115455add3808aa3082099562349bc89955e5838910a3442be",
+    "images/wand_arm.png": "db5dd537bbad224f01b8d44ce9344c9224cfb467576797776d1f97c638bebcf2",
+    "images/wand_hand.png": "734f9af02cc6e001e705dd2c8a69e6135024d6f02ff719fd673e3fb042bcb98a"
+  },
+  "actions": [
+    {
+      "name": "fly",
+      "duration": 4,
+      "samples": 241
+    },
+    {
+      "name": "charge",
+      "duration": 2.8,
+      "samples": 169
+    },
+    {
+      "name": "cast",
+      "duration": 2.2,
+      "samples": 133
+    }
+  ],
+  "frames": 543,
+  "maxGeometryError": 0,
+  "maxColorError": 0
+}

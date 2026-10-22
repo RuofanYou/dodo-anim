@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "bodyBonesByteValueUnchanged": true,
+  "bodyTracksUnchanged": true,
+  "originalSourceAnimationsUnchanged": [
+    "animation",
+    "animation2",
+    "effect",
+    "end",
+    "ing"
+  ],
+  "boneCount": 62,
+  "slotCount": 42,
+  "weightedInfluencesChecked": 4630,
+  "allMaterialHashesMatched": [
+    "assets/parts/far_wing.png",
+    "assets/parts/near_wing.png",
+    "assets/parts/body.png",
+    "assets/parts/jaw.png",
+    "assets/parts/native/fire_1.png",
+    "assets/parts/native/fire_2.png",
+    "assets/parts/native/fire_3.png",
+    "assets/parts/native/fire_4.png",
+    "assets/parts/native/gole.png"
+  ],
+  "bodyMatrixSamples": 361,
+  "maxBodyMatrixError": 0,
+  "emitterSamples": 148,
+  "maxEmitterDistance": 3.205933259855938e-7,
+  "worldNonfinite": 0,
+  "scope": "Original data and adapted registration checked using official Spine 3.8. Does not certify appearance, 4.3 equivalence, C++/Skia, or target-device performance."
+}

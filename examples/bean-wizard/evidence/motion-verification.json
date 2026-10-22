@@ -1,0 +1,75 @@
+{
+  "runtime": "Rigby2D 0.2.4, pinned upstream 6069ae2ef8cfbb622053a84e7ccd4acc74c06415",
+  "status": "passed",
+  "scope": "Wizard-authored constraints only: broom contact, mesh area, shared neck vertices, bounded projectile, authored return-to-rest. Does not prove visual quality or target C++ runtime compatibility.",
+  "bones": 26,
+  "slots": 16,
+  "sampleResults": [
+    {
+      "name": "fly",
+      "duration": 4,
+      "sampledFrames": 241,
+      "distinctPoses": 240,
+      "visibleQuadRange": [
+        15,
+        15
+      ],
+      "bounds": [
+        -576.291,
+        -341.071,
+        567.278,
+        712.785
+      ],
+      "loopGeometrySeam": 0,
+      "loopColorSeam": 0
+    },
+    {
+      "name": "charge",
+      "duration": 2.8,
+      "sampledFrames": 169,
+      "distinctPoses": 168,
+      "visibleQuadRange": [
+        15,
+        15
+      ],
+      "bounds": [
+        -575.05,
+        -336.961,
+        568.181,
+        708.841
+      ],
+      "loopGeometrySeam": 0,
+      "loopColorSeam": 0
+    },
+    {
+      "name": "cast",
+      "duration": 2.2,
+      "sampledFrames": 133,
+      "distinctPoses": 132,
+      "visibleQuadRange": [
+        15,
+        16
+      ],
+      "bounds": [
+        -596.476,
+        -348.036,
+        800.426,
+        718.145
+      ],
+      "loopGeometrySeam": 0,
+      "loopColorSeam": 0
+    }
+  ],
+  "motionChecks": {
+    "maxHandTargetError": 1.3043830727131805e-13,
+    "wandWorldAngleRange": [
+      21.671206858019445,
+      119.05372495270375
+    ],
+    "minMeshAreaRatio": 0.30578310433909883,
+    "projectileMaxSourceX": 1377.5504268300072,
+    "projectileSourceRightLimit": 1454,
+    "neckSharedSourceVertices": 296,
+    "maxSharedNeckVertexError": 0
+  }
+}

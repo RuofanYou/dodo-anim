@@ -1,0 +1,121 @@
+{
+  "art": {
+    "classification": "Original image_gen prop design and matching component material generation",
+    "masterReference": "source/master-closed.png",
+    "preparedOpenSurfaces": "source/master-open.png",
+    "outerLidMaterial": "source/lid-panel.png",
+    "reward": "source/reward-seed.png",
+    "methodReference": "agent-sprite-forge static master only"
+  },
+  "rig": {
+    "classification": "New authored six-face rigid cuboid projected into editable 2D bones and weighted meshes",
+    "source": "source/rig_spec.json",
+    "view": "One calibrated near-front perspective",
+    "geometryLibrary": {
+      "package": "three",
+      "version": "0.186.1",
+      "license": "MIT",
+      "primitives": [
+        "THREE.BoxGeometry",
+        "THREE.Group.rotateX",
+        "THREE.PerspectiveCamera",
+        "THREE.Vector3.project",
+        "THREE.Matrix3.getNormalMatrix",
+        "THREE.Camera.matrixWorldInverse"
+      ]
+    },
+    "implementation": "scripts/volumetric_lid.mjs",
+    "motionBuilder": "scripts/build_rig.mjs",
+    "physicalThickness": 50,
+    "thicknessUnit": "Authored 3D model units before perspective projection",
+    "faces": [
+      "lid_right",
+      "lid_left",
+      "lid_top",
+      "lid_bottom",
+      "lid_front",
+      "lid_back"
+    ],
+    "baking": "Projected shared 3D surface vertices become 2D bone translation keys and weighted Spine meshes; face visibility and drawOrder are emitted on the same timeline.",
+    "currentOutput": {
+      "bones": 100,
+      "slots": 19
+    },
+    "pixelOwnership": "The leaf clasp pixels are removed from box_back and box_front using the same source mask and belong to the separate clasp slot.",
+    "hinge": {
+      "edge": "bottomRearLeft -> bottomRearRight",
+      "axis": "X at the box-mouth plane",
+      "localEndpoints": [
+        [
+          -500,
+          0,
+          0
+        ],
+        [
+          500,
+          0,
+          0
+        ]
+      ],
+      "bottomY": 0,
+      "topY": 50,
+      "rearZ": 0,
+      "positiveOpening": "THREE.Group rotation around negative X"
+    },
+    "layering": {
+      "faceOrder": "Each cuboid face ordered by camera-space depth",
+      "outerView": [
+        "box_back",
+        "hinge_band",
+        "effects/reward",
+        "box_front",
+        "lid faces",
+        "clasp"
+      ],
+      "innerView": [
+        "box_back",
+        "lid faces",
+        "hinge_band",
+        "effects/reward",
+        "box_front",
+        "clasp"
+      ]
+    }
+  },
+  "motion": {
+    "classification": "Original authored angle, reward and effect curves; not reused animation",
+    "source": "source/actions.json"
+  },
+  "runtime": {
+    "name": "Rigby2D",
+    "commit": "6069ae2ef8cfbb622053a84e7ccd4acc74c06415"
+  },
+  "sourceSha256": {
+    "lid-panel.png": "d75f98c192a382e973f3fd246cbcd96e612908242d318d503e4f8e67572db47c",
+    "master-closed.png": "8706d3d77fda15ab2394d5567e4fc9cf0ebaba83b3981958637b013fa800aa46",
+    "master-open.png": "13293f79682e8a7303cfea9443787a6a16f653e8ce6db2c2e7cafc9a00a0bf68",
+    "reward-seed.png": "3b4cfa8e784de2a6fad5e384370839431be3c164200f70f8fd309a5481c042ab"
+  },
+  "reproduction": {
+    "inputs": "Use the supplied exact PNGs, source/rig_spec.json, source/actions.json, project scripts and workbench.json; generated imagery is not guaranteed to regenerate identically from prompts.",
+    "from": "game-animation-workbench root",
+    "dependencies": [
+      "npm ci",
+      "python3 -m venv .venv",
+      ".venv/bin/python -m pip install -r requirements.txt"
+    ],
+    "build": "node scripts/workbench.mjs build examples/bean-chest --python .venv/bin/python --exchange",
+    "validate": "node scripts/workbench.mjs validate examples/bean-chest --python .venv/bin/python",
+    "preview": "node scripts/workbench.mjs preview examples/bean-chest --port 3051",
+    "independentConsumerCommands": "examples/bean-chest/README.md"
+  },
+  "consumerTools": {
+    "package": "rig-c",
+    "version": "2.65.1",
+    "runtime": "@esotericsoftware/spine-core@4.3.13",
+    "bun": "1.4.3",
+    "role": "Independent export consumption: official Spine pose evaluation with rig-c offline frame rendering, inspect and hide-slot comparisons. Reports distinguish format validity from visual judgement.",
+    "currentEvidence": "../../../game-animation-wheel-trial/chest-bottom-hinge/consumer-report.json",
+    "canonical": "The workbench .rigby project remains the editable canonical artifact; wheel-trial rebuilds are separate consumer experiments."
+  }
+}

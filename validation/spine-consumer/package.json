@@ -1,0 +1,14 @@
+{
+  "name": "game-animation-spine-consumer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "compare": "bun compare-spine-formats.mjs"
+  },
+  "dependencies": {
+    "rig-c": "2.65.1",
+    "@esotericsoftware/spine-core": "4.3.13",
+    "bun": "1.4.3"
+  }
+}
