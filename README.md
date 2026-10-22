@@ -4,6 +4,8 @@
 
 这版重点保存制作判断：先明确动作并实际查看可复用工程，再分析支点、接触、遮挡和材质；用粗绑定测试关键姿态及反向极限，通过后再细做动作和次级运动。固定版本 Rigby2D 承担已有的骨骼计算、格式读写与渲染。
 
+反复修图时保留已有部件、附件引用和画布位置，新部件再明确装配；AI 分层按目标动作与试姿调整颗粒度。选材可检索 Spine、DragonBones 等成熟工程，同结构动作与换皮分别复用，跨结构和跨格式另做适配与验收。相关判断已融入下述流程，具体来源及仍未实测的能力见 [DragonBones / LoongBones 评估](references/dragonbones-assessment.md)。这不改变当前 Rigby 制作与预览链路。
+
 ## 以后怎样直接让 Codex 使用
 
 在已登录且可访问该私人仓库的电脑上克隆：
@@ -62,6 +64,7 @@ cd dodo-anim
 
 - **让 Codex 制作：**按上面的无上下文入口读取 [AGENTS.md](AGENTS.md) 与 [SKILL.md](SKILL.md)，提供素材和动作目标；播放器未定时先交付网页，不需要因此卡住制作。
 - **看制作方法：**[工作流程](references/workflow.md)、[运动关系判断](references/rigging-decisions.md)、[验收](references/acceptance.md)。
+- **已有动画需要改图：**按 [修图与装配更新](references/workflow.md#修图与装配更新) 保留原引用和注册，再复测受影响的姿态；无需重新组装整个角色。
 - **看具体作品：**[绿豆巫师样例](examples/bean-wizard/README.md)，包含原图、补画图、拆层、骨架、关键帧、可编辑工程和已认可 MP4。
 - **复用已认可的道具工程：**[绿豆宝箱](examples/bean-chest/README.md)，包含可编辑工程、六面箱盖、底面后沿铰链、开盖动作与 [连续预览](examples/bean-chest/evidence/chest-opening.mp4)。
 - **复用已认可的角色与原生效果组合：**[死亡之翼原生喷火](examples/deathwing-native-fire/README.md)，包含原火焰恢复数据、可编辑工程、喷口挂接、原动作编排、网页与 [分享 MP4](examples/deathwing-native-fire/exports/deathwing-native-fire.mp4)。
